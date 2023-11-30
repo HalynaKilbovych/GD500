@@ -26,68 +26,71 @@
   }
 
 
-  &__item {
+  &__item img{
     width: 100px;
-    max-height: 800px;
-    fill: #051761;
-    background-image: url("/img/icon-bg.svg");
   }
+
+
+  &__item{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
 }
 
-    &__item img{ 
-        width: 100px;
+&__item--first::after { 
+    display: none; 
+    @include desktop { 
+        display: block;
+        content: " ";
+        height: 3px;
+        background: #6C8CD0;
+        width: 150px;
+        position: absolute;
+        top: 40%;
+        left: 110px;
+    }
+}
+
+&__item--second::after { 
+    display: none; 
+    @include desktop { 
+        display: block;
+        content: " ";
+        height: 3px;
+        background: #6C8CD0;
+        width: 150px;
+        position: absolute;
+        top: 40%;
+        left: 160px;
     }
 
-    &__item{ 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 10px;
-        position: relative;
-    }
+}
 
-    &__item--first::after { 
-        display: none; 
-        @include desktop { 
-            display: block;
-            content: " ";
-            height: 3px;
-            background: #6C8CD0;
-            width: 150px;
-            position: absolute;
-            top: 40%;
-            left: 110px;
-        }
 
+&__list { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    max-width: 660px;
+    margin: 0 auto;
+    margin-bottom: 66px;
+    @include tablet { 
+        flex-direction: row; 
     }
 
 
-    &__item--second::after { 
-        display: none; 
-        @include desktop { 
-            display: block;
-            content: " ";
-            height: 3px;
-            background: #6C8CD0;
-            width: 170px;
-            position: absolute;
-            top: 40%;
-            left: 160px;
-        }
+}
 
-    }
+&__btn  { 
+    margin: 0 auto;
+}
+
+}
 
 
-    &__list { 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        gap: 50px;
-        max-width: 660px;
-        margin: 0 auto;
-        @include tablet { 
-            flex-direction: row; 
-        }
-    }
+    
