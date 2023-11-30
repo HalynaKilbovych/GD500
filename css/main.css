@@ -796,6 +796,38 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   background-color: #fff;
   margin-bottom: 60px;
 }
+<<<<<<< Updated upstream
+=======
+.currency__title {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135.687%; /* 65.13px */
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+@media screen and (min-width: 1200px) {
+  .currency__title {
+    font-size: 48px;
+  }
+}
+.currency__text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 135.687%; /* 24.424px */
+  margin-bottom: 60px;
+}
+.currency__img {
+  border-radius: 7px;
+  overflow: hidden;
+  padding: 50px;
+  background-color: #fff;
+  margin-bottom: 60px;
+}
+>>>>>>> Stashed changes
 .currency__btn {
   margin: 0 auto;
   border: 2px solid #fff;
@@ -919,7 +951,14 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 .progress {
   background-color: #2c3378;
   padding: 80px 0;
+<<<<<<< Updated upstream
   background-image: url("/img/reg-bg.svg");
+=======
+  background-image: url(/img/reg-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+>>>>>>> Stashed changes
 }
 .progress__title {
   text-align: center;
@@ -927,15 +966,71 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   font-style: normal;
   font-weight: 700;
   line-height: 135.687%;
+  margin-bottom: 70px;
 }
 @media screen and (min-width: 1200px) {
   .progress__title {
     font-size: 48px;
   }
 }
-.progress__item {
+.progress__item img {
   width: 100px;
+<<<<<<< Updated upstream
   max-height: 800px;
   fill: #051761;
   background-image: url("/img/icon-bg.svg");
+=======
+}
+.progress__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+.progress__item--first::after {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .progress__item--first::after {
+    display: block;
+    content: " ";
+    height: 3px;
+    background: #6C8CD0;
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 110px;
+  }
+}
+.progress__item--second::after {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .progress__item--second::after {
+    display: block;
+    content: " ";
+    height: 3px;
+    background: #6C8CD0;
+    width: 170px;
+    position: absolute;
+    top: 40%;
+    left: 160px;
+  }
+}
+.progress__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  max-width: 660px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .progress__list {
+    flex-direction: row;
+  }
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=main.css.map */
