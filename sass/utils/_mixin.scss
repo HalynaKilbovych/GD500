@@ -13,6 +13,14 @@
   gap: $dg;
 
 }
+// @include fonts (null, 35px, 1.3, 0.01em);
+@mixin fonts($fw:500, $fs, $lh:24px, $ls:0.03em) { 
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+  
 
 @mixin mini-mobile {
   @media screen and (min-width: 280px) {

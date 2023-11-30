@@ -515,7 +515,7 @@ a.link:hover {
 }
 @media screen and (min-width: 1200px) {
   .news {
-    padding-top: 160px;
+    padding-top: 120px;
     padding-bottom: 120px;
   }
 }
@@ -763,8 +763,9 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   color: var(--secondary-text-color);
 }
 
-#videoSwiper {
+#newVideoSwiper {
   width: 500px;
+  padding: 0;
 }
 
 .currency {
