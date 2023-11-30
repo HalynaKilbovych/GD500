@@ -1,0 +1,192 @@
+.news { 
+    background-color: #2C3378;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    position: relative;
+
+    @include desktop { 
+        padding-top: 160px;
+        padding-bottom: 120px;
+    }
+}
+
+
+.news-item { 
+    width: 100%;
+    padding: 32px 32px 58px 32px;
+    border-radius: 20px;
+    background: #FAFBFF;
+
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
+    @include desktop { 
+
+    }
+}
+
+.news__img { 
+    width: 100%;
+    height: 290px;
+    overflow: hidden;
+    margin-bottom: 36px;
+    position: relative;
+}
+
+.news__img img { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Зберігає пропорції зображення і заповнює контейнер */
+}
+
+.news__text { 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    width: 90%;
+    margin-bottom: 36px;
+    color: var(--secondary-text-color);
+}
+
+.news__day { 
+    color: #101010;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.news__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: -60px;
+    flex-direction: column-reverse;
+
+    @include desktop { 
+        top: 60px;
+        flex-direction: row;
+    }
+}
+.news__title-wrp {
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+}
+.news__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130%; /* 62.4px */
+    text-transform: capitalize;
+    @include tablet { 
+        font-size: 48px;
+    }
+
+    
+}
+.news__subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 130%; /* 31.2px */
+    text-transform: capitalize;
+}
+
+.news__btn { 
+    margin-left: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.687%;
+    z-index: 10000;
+}
+
+
+.swiper {
+    width: 95%;
+    height: 100%;
+    padding: 0px 0px 100px 0px;
+    @include tablet { 
+        width: 100%;
+    }
+
+    @include desktop {
+        width: 100%;
+        padding: 200px 0px 0px 200px;
+    }
+    
+    @media screen and (min-width: 1600px){
+        width: 1600px;
+        padding: 200px 0px 0px 0px;
+    }
+  }
+
+  .swiper-button-prev { 
+    
+    width: 85px;
+    height: 85px;
+    top: 90%;
+    
+
+    @include desktop { 
+        top: 17px;
+        left: 67%;
+    }
+
+    @media screen and (min-width: 1500px){
+        left: 60%;
+    }
+
+  }
+
+  .swiper-slide { 
+    border-radius: 20px;
+    @include desktop { 
+        width: 560px;
+    }
+  }
+
+  .swiper-button-next { 
+    width: 85px;
+    height: 85px;
+    top: 90%;
+    @include desktop { 
+        top: 17px;
+        right: 21%;
+    }
+
+    @media screen and (min-width: 1500px){
+        right: 29%;
+    }
+
+  }
+
+
+  body .swiper .swiper-wrapper .swiper-slide-shadow-left { 
+    border-radius: 20px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2));
+  }
+
+  body .swiper .swiper-wrapper .swiper-slide-shadow-right { 
+    border-radius: 20px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));
+  }
+
+  .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: '';
+    width: 100px;
+    height: 80px;
+    background: url(../../img/arrow-right.svg);
+    }
+    
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-prev:after {
+        content: '';
+        width: 100px;
+        height: 80px;
+        background: url(../../img/arrow.svg);
+    }
+
+

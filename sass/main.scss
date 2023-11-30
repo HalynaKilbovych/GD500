@@ -1,0 +1,24 @@
+
+@import './base/reset';
+@import './base/global';
+
+@import './components/container';
+@import './components/btn';
+
+
+@import './utils/mixin';
+@import './utils/variables';
+@import './utils/hidden';
+
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/news';
+@import './layout/description';
+@import './layout/video';
+// @import './layout/form';
+// @import './layout/footer';
+
+
+// @import './layout/pages/news.scss';
