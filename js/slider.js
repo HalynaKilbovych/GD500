@@ -23,8 +23,9 @@ const swiper = new Swiper("#newsSwiper", {
 });
 
 const videoSwiper = new Swiper("#newVideoSwiper", {
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 20,
+  effect: "coverflow",
   navigation: {
     nextEl: ".video-swiper-button-next",
     prevEl: ".video-swiper-button-prev",
