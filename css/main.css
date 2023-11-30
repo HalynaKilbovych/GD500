@@ -698,7 +698,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   content: "";
   width: 100px;
   height: 80px;
-  background: url("/img/arrow-right.svg");
+  background: url("/img/arrow.svg");
 }
 
 .description {
