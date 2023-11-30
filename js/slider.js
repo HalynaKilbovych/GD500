@@ -1,10 +1,9 @@
 
 const swiper = new Swiper("#newsSwiper", {
   direction: "horizontal",
-  loop: true,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".news-btn-next",
+    prevEl: ".news-btn-prev",
   },
   breakpoints: {
     320: { slidesPerView: 1 },
@@ -13,7 +12,6 @@ const swiper = new Swiper("#newsSwiper", {
     1600: { slidesPerView: 3 },
   },
   spaceBetween: 40,
-  grabCursor: true,
   coverflowEffect: {
     rotate: 0,
     slideShadows: true,
