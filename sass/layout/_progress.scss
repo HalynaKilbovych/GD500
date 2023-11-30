@@ -2,4 +2,24 @@
     background-color: #2C3378;
     padding: 80px 0;
     background-image: url('/img/reg-bg.svg');
+
+    &__title { 
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 135.687%;
+
+        @include desktop { 
+            font-size: 48px;  
+        }
+
+    }
+
+    &__item { 
+        width: 100px;
+        max-height: 800px;
+        fill: #051761;
+        background-image: url(/img/icon-bg.svg);
+    }
 }

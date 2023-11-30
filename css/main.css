@@ -794,6 +794,14 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   background-color: #fff;
   margin-bottom: 60px;
 }
+<<<<<<< Updated upstream
+=======
+.currency__btn {
+  margin: 0 auto;
+  border: 2px solid #fff;
+  font-weight: 500;
+}
+>>>>>>> Stashed changes
 .currency__title {
   text-align: center;
   font-size: 24px;
@@ -820,12 +828,12 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   border-radius: 7px;
   overflow: hidden;
   padding: 50px;
-  background-color: #fff;
+  background-color: #FFF;
   margin-bottom: 60px;
 }
 .currency__btn {
   margin: 0 auto;
-  border: 2px solid #fff;
+  border: 2px solid #FFF;
   font-weight: 500;
 }
 
@@ -833,6 +841,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   width: 760px;
 }
 
+<<<<<<< Updated upstream
 .videoSwiper {
   overflow: hidden;
   padding: 60px 0;
@@ -847,6 +856,8 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   right: 20%;
 }
 
+=======
+>>>>>>> Stashed changes
 .trader {
   padding: 100px 0px 252px;
   background-color: #6A8AD1;
@@ -913,4 +924,25 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   background-color: #2C3378;
   padding: 80px 0;
   background-image: url("/img/reg-bg.svg");
+<<<<<<< Updated upstream
+=======
+}
+.progress__title {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135.687%;
+}
+@media screen and (min-width: 1200px) {
+  .progress__title {
+    font-size: 48px;
+  }
+}
+.progress__item {
+  width: 100px;
+  max-height: 800px;
+  fill: #051761;
+  background-image: url(/img/icon-bg.svg);
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=main.css.map */
