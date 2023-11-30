@@ -699,7 +699,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   content: "";
   width: 100px;
   height: 80px;
-  background: url("/img/ebooks.png");
+  background: url("./img/ebooks.png");
 }
 
 .swiper-button-prev:after,
