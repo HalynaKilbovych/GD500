@@ -3,13 +3,8 @@ const videoSwiper = new Swiper("#newVideoSwiper", {
   
     spaceBetween: 20,
     navigation: {
-      nextEl: ".video-swiper-button-next",
-      prevEl: ".video-swiper-button-prev",
-    },
-    coverflowEffect: {
-      rotate: 0,
-      slideShadows: true,
-      depth: 5,
+      nextEl: ".video-btn-next",
+      prevEl: ".video-btn-prev",
     },
   });
 

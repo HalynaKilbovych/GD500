@@ -386,54 +386,51 @@
               manager
             </p>
 
-            <div class="videoSwiper" id="newVideoSwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img
-                    class="video-thumbnail"
-                    src="./img/video-1.jpg"
-                    alt="Video Thumbnail"
-                    width="300"
-                    height="200"
-                    data-src="./img/video.mp4"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="video-thumbnail"
-                    src="./img/video-2.jpg"
-                    alt="Video Thumbnail"
-                    width="300"
-                    height="200"
-                    data-src="./img/video.mp4"
-                  />
+                          <!-- Slider main container -->
+              <div class="swiper" id="newVideoSwiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img
+                      class="video-thumbnail"
+                      src="./img/video-1.jpg"
+                      alt="Video Thumbnail"
+                      width="300"
+                      height="200"
+                      data-src="./img/video.mp4"
+                    >
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="video-thumbnail"
+                      src="./img/video-2.jpg"
+                      alt="Video Thumbnail"
+                      width="300"
+                      height="200"
+                      data-src="./img/video.mp4"
+                    >
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="video-thumbnail"
+                      src="./img/video-1.jpg"
+                      alt="Video Thumbnail"
+                      width="300"
+                      height="200"
+                      data-src="./img/video.mp4"
+                    >
+                  </div>
+                  
                 </div>
 
-                <div class="swiper-slide">
-                  <img
-                    class="video-thumbnail"
-                    src="./img/video-2.jpg"
-                    alt="Video Thumbnail"
-                    width="300"
-                    height="200"
-                    data-src="./img/video.mp4"
-                  />
-                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev video-btn-prev"></div>
+                <div class="swiper-button-next video-btn-next"></div>
 
-                <div class="swiper-slide">
-                  <img
-                    class="video-thumbnail"
-                    src="./img/video-2.jpg"
-                    alt="Video Thumbnail"
-                    width="300"
-                    height="200"
-                    data-src="./img/video.mp4"
-                  />
-                </div>
               </div>
-              <div class="swiper-button-prev video-swiper-button-prev"></div>
-              <div class="swiper-button-next video-swiper-button-next"></div>
-            </div>
+
+           
 
             <div id="video-container" style="display: none">
               <video controls width="600" height="400" id="video">
