@@ -2,12 +2,88 @@
   padding: 80px 0px;
   background: #fff;
   color: var(--secondary-text-color);
+
+  &__container { 
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title { 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    margin-bottom: 48px;
+    @include desktop { 
+        font-size: 36px;
+    }
+
+  }
+
+  &__txt { 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    @include desktop { 
+        font-size: 18px;
+    }
+  }
 }
 
 #newVideoSwiper{
-  width: 500px;
+  width: 760px;
+  height: 500px;
   padding: 0;
+  margin-right: auto;
+  margin-left: 0;
+  margin-top: 60px;
 }
+.video-btn-next { 
+    top: 55%;
+    left: 100px;
+}
+
+.video-btn-prev { 
+    top: 55%;
+    left: 20px;
+}
+
+.swiper-slide-img { 
+    position: relative;
+}
+
+.swiper-slide-img::after { 
+    position: absolute;
+    content: " ";
+    width: 60px;
+    height: 60px;
+    background: url(/img/play.png);
+    display: block;
+    transform: translate(-50%);
+    top: 40%;
+    left: 50%;
+    z-index: 1000000;
+
+}
+
+.ebooks { 
+    border-radius: 20px;
+    border: 1px solid #E2E4ED;
+    background: #FFF;
+    padding: 32px;
+    max-width: 350px;
+    max-height: 600px;
+
+    &__img-wrp { 
+        width: 276px;
+        height: 188px;
+        padding: 32px;
+    }
+}
+
+
 
 .currency {
   padding: 130px 0px;
