@@ -14,7 +14,6 @@ const swiper = new Swiper("#newsSwiper", {
   },
   spaceBetween: 40,
   grabCursor: true,
-  effect: "coverflow",
   coverflowEffect: {
     rotate: 0,
     slideShadows: true,
@@ -24,11 +23,18 @@ const swiper = new Swiper("#newsSwiper", {
 
 const videoSwiper = new Swiper("#newVideoSwiper", {
   slidesPerView: 2,
-  spaceBetween: 20,
   effect: "coverflow",
+  spaceBetween: 20,
+  loop: true,
+
   navigation: {
     nextEl: ".video-swiper-button-next",
     prevEl: ".video-swiper-button-prev",
+  },
+  coverflowEffect: {
+    rotate: 0,
+    slideShadows: true,
+    depth: 5,
   },
 });
 

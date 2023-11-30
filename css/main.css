@@ -785,4 +785,18 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 
 .video__slider-wrp {
   width: 760px;
+}
+
+.videoSwiper {
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+.video-swiper-button-prev {
+  top: 315px;
+}
+
+.video-swiper-button-next {
+  top: 315px;
+  right: 20%;
 }/*# sourceMappingURL=main.css.map */
