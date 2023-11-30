@@ -178,7 +178,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   content: "";
   width: 100px;
   height: 80px;
-  background: url("./img/ebooks.png");
+  background: url("../img/arrow-right.svg");
 }
 
 .swiper-button-prev:after,
@@ -186,5 +186,5 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   content: "";
   width: 100px;
   height: 80px;
-  background: url("/img/arrow.svg");
+  background: url("../img/arrow.svg");
 }

@@ -699,7 +699,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   content: "";
   width: 100px;
   height: 80px;
-  background: url("./img/ebooks.png");
+  background: url("../img/arrow-right.svg");
 }
 
 .swiper-button-prev:after,
@@ -707,11 +707,11 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   content: "";
   width: 100px;
   height: 80px;
-  background: url("/img/arrow.svg");
+  background: url("../img/arrow.svg");
 }
 
 .description {
-  background-image: url("/img/bg-pattern.svg");
+  background-image: url("../img/bg-pattern.svg");
   padding: 80px 0px;
 }
 @media screen and (min-width: 1200px) {
@@ -824,7 +824,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   content: " ";
   width: 60px;
   height: 60px;
-  background: url(/img/play.png);
+  background: url("../img/play.png");
   display: block;
   transform: translate(-50%);
   top: 40%;
@@ -1058,7 +1058,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 .progress {
   background-color: #2c3378;
   padding: 80px 0;
-  background-image: url(/img/reg-bg.svg);
+  background-image: url("../img/reg-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
