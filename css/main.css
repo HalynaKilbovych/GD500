@@ -508,7 +508,7 @@ a.link:hover {
 }
 
 .news {
-  background-color: #2C3378;
+  background-color: #2c3378;
   padding-top: 200px;
   padding-bottom: 80px;
   position: relative;
@@ -524,7 +524,7 @@ a.link:hover {
   width: 100%;
   padding: 32px 32px 58px 32px;
   border-radius: 20px;
-  background: #FAFBFF;
+  background: #fafbff;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
 }
 .news__img {
@@ -689,22 +689,24 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
 }
 
-.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
   content: "";
   width: 100px;
   height: 80px;
-  background: url("/img/arrow-right.svg");
+  background: url("../../img/arrow-right.svg");
 }
 
-.swiper-button-prev:after, .swiper-container-rtl .swiper-button-prev:after {
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-prev:after {
   content: "";
   width: 100px;
   height: 80px;
-  background: url("/img/arrow.svg");
+  background: url("../../img/arrow.svg");
 }
 
 .description {
-  background-image: url("/img/bg-pattern.svg");
+  background-image: url("../../img/bg-pattern.svg");
   padding: 80px 0px;
 }
 @media screen and (min-width: 1200px) {
@@ -910,7 +912,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 }
 
 .progress {
-  background-color: #2C3378;
+  background-color: #2c3378;
   padding: 80px 0;
-  background-image: url("/img/reg-bg.svg");
+  background-image: url("../../img/reg-bg.svg");
 }/*# sourceMappingURL=main.css.map */

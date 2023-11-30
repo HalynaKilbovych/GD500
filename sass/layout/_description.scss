@@ -1,52 +1,50 @@
-.description { 
-  background-image: url('/img/bg-pattern.svg');
+.description {
+  background-image: url("../../img/bg-pattern.svg");
   padding: 80px 0px;
-  @include desktop { 
+  @include desktop {
     padding: 136px 0px;
   }
 
-  &__container{ 
+  &__container {
     display: flex;
     justify-content: space-between;
-    gap: 90px; 
+    gap: 90px;
     align-items: center;
 
     flex-direction: column;
 
-    @include desktop { 
+    @include desktop {
       flex-direction: row;
     }
   }
-  &__title { 
+  &__title {
     font-size: 24px;
-    
+
     font-weight: 700;
     letter-spacing: 0.96px;
     line-height: 60px;
     margin-bottom: 30px;
-    @include tablet { 
+    @include tablet {
       font-size: 48px;
     }
-
   }
 
-  &__text { 
+  &__text {
     font-size: 14px;
-  font-weight: 400;
-  line-height: 140%; 
-    @include tablet { 
+    font-weight: 400;
+    line-height: 140%;
+    @include tablet {
       font-size: 18px;
     }
-
   }
 
-  &__text--second { 
+  &__text--second {
     margin-top: 20px;
   }
 
-  &__image-wrp { 
+  &__image-wrp {
     max-width: 559px;
     border-radius: 20px;
     overflow: hidden;
   }
-} 
+}
