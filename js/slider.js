@@ -23,14 +23,10 @@ const swiper = new Swiper("#newsSwiper", {
 
 const videoSwiper = new Swiper("#newVideoSwiper", {
   slidesPerView: 2,
-<<<<<<< Updated upstream
   effect: "coverflow",
   spaceBetween: 20,
   loop: true,
 
-=======
-  spaceBetween: 20,
->>>>>>> Stashed changes
   navigation: {
     nextEl: ".video-swiper-button-next",
     prevEl: ".video-swiper-button-prev",
