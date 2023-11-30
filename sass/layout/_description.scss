@@ -1,6 +1,9 @@
 .description { 
   background-image: url('/img/bg-pattern.svg');
-  padding: 136px 0px;
+  padding: 80px 0px;
+  @include desktop { 
+    padding: 136px 0px;
+  }
 
   &__container{ 
     display: flex;
@@ -15,17 +18,26 @@
     }
   }
   &__title { 
-    font-size: 48px;
+    font-size: 24px;
+    
     font-weight: 700;
     letter-spacing: 0.96px;
     line-height: 60px;
     margin-bottom: 30px;
+    @include tablet { 
+      font-size: 48px;
+    }
+
   }
 
   &__text { 
-    font-size: 18px;
+    font-size: 14px;
   font-weight: 400;
-  line-height: 140%
+  line-height: 140%; 
+    @include tablet { 
+      font-size: 18px;
+    }
+
   }
 
   &__text--second { 
