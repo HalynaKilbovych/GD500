@@ -1165,6 +1165,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   gap: 30px;
   margin-bottom: 40px;
   flex-direction: column;
+  align-items: center;
 }
 @media screen and (min-width: 1200px) {
   .footer__wrp {
