@@ -5,5 +5,10 @@ const videoSwiper = new Swiper("#newVideoSwiper", {
       nextEl: ".video-btn-next",
       prevEl: ".video-btn-prev",
     },
+
+    breakpoints: {
+      320: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+    },
   });
 
