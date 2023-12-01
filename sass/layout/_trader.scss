@@ -4,12 +4,16 @@
   color: var(--secondary-text-color);
 
   &__container { 
-    padding: 90px;
+    padding: 90px 20px;
     background-color: #fff;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     position: relative;
+
+    @include tablet { 
+      padding: 90px;
+    }
   }
 
   &__title, 

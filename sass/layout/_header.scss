@@ -2,31 +2,51 @@
 
 .header {
   padding: 24px 0px;
+  font-size: 10px;
+  @include desktop { 
+    font-size: 14px;
+  }
 
   &__container {
     display: none;
-    @include desktop{
+    @include tablet{
       @include flex (flex, center, space-between, null);
     }
   }
 
   &__btn-wrp {
-    @include flex (flex, center, space-between, 12px);
+    @include flex (flex, center, space-between, 6px);
+
+    @include desktop { 
+      gap: 12px;
+    }
   }
 }
 
 .logo {
-  width: 150px;
-  height: 50px;
+  width: 110px; 
+
+  @include desktop { 
+    width: 150px;
+  }
 }
 
 .nav__list {
-  @include flex (flex, center, space-between, 34px);
+  @include flex (flex, center, space-between, 15px);
+
+  @include desktop { 
+    gap: 36px;
+  }
 }
 
 .nav__link {
   color: var(--text-color); 
-  font-size: 14px
+  font-size: 10px; 
+
+  @include desktop { 
+    font-style: 14px;
+  }
+  
 }
 
 
@@ -42,7 +62,7 @@
 }
 
 .mob-header__btn-wrp { 
-  @include flex (flex, center, center, 12px);
+  @include flex (flex, center, center, 5px);
 }
 
 
@@ -56,18 +76,18 @@
 }
 .mob-logo { 
   padding-left: 20px;
-  @include desktop { 
+  @include tablet { 
     display: none;
   }
 }
 .header-mob { 
   @include flex (flex, flex-end, space-between, null );
-  @include desktop { 
+  @include tablet { 
     display: none;
   }
 }
 .header-top-mob { 
-  @include desktop { 
+  @include tablet { 
     display: none;
   }
 }
@@ -128,7 +148,7 @@
   }
 }
 .mob-menu__open-btn { 
-  @include desktop { 
+  @include tablet { 
   display: none;
   }
 }

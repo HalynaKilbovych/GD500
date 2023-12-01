@@ -95,7 +95,7 @@
   }
 
   &__benefits-list {
-    @include flex-wrap (flex, wrap, column, 20px);
+    @include flex-wrap (flex, wrap, column, 30px);
     align-items: center;
     justify-content: center;
   
@@ -115,6 +115,7 @@
     height: 76px;
     fill: currentColor;
     transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1); 
+    margin-bottom: -15px;
   }
   
 }
@@ -133,4 +134,10 @@
 
 .hero__benefits-txt {
   max-width: 158px;
+
+  font-size: 14px; 
+
+  @include tablet { 
+    font-size: 18px; 
+  }
 }

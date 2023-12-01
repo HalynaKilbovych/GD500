@@ -76,7 +76,7 @@
   margin-top: 10px;
 }
 .news__title {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 130%; /* 62.4px */
   text-transform: capitalize;
@@ -85,15 +85,18 @@
   }
 }
 .news__subtitle {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 130%; /* 31.2px */
   text-transform: capitalize;
+  @include tablet {
+    font-size: 24px;
+  }
 }
 
 .news__btn {
   margin-left: auto;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 135.687%;

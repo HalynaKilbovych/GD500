@@ -153,11 +153,17 @@ a.link:hover {
 
 .header {
   padding: 24px 0px;
+  font-size: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    font-size: 14px;
+  }
 }
 .header__container {
   display: none;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .header__container {
     display: flex;
     align-items: center;
@@ -168,24 +174,43 @@ a.link:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 6px;
+}
+@media screen and (min-width: 1200px) {
+  .header__btn-wrp {
+    gap: 12px;
+  }
 }
 
 .logo {
-  width: 150px;
-  height: 50px;
+  width: 110px;
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    width: 150px;
+  }
 }
 
 .nav__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 34px;
+  gap: 15px;
+}
+@media screen and (min-width: 1200px) {
+  .nav__list {
+    gap: 36px;
+  }
 }
 
 .nav__link {
   color: var(--text-color);
-  font-size: 14px;
+  font-size: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .nav__link {
+    font-style: 14px;
+  }
 }
 
 .mob-nav__list {
@@ -203,7 +228,7 @@ a.link:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 5px;
 }
 
 .backdrop {
@@ -218,7 +243,7 @@ a.link:hover {
 .mob-logo {
   padding-left: 20px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .mob-logo {
     display: none;
   }
@@ -229,13 +254,13 @@ a.link:hover {
   align-items: flex-end;
   justify-content: space-between;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .header-mob {
     display: none;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .header-top-mob {
     display: none;
   }
@@ -296,7 +321,7 @@ a.link:hover {
   color: #2C3378;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .mob-menu__open-btn {
     display: none;
   }
@@ -402,7 +427,7 @@ a.link:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
   justify-content: center;
 }
@@ -421,6 +446,7 @@ a.link:hover {
   height: 76px;
   fill: currentColor;
   transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: -15px;
 }
 
 .hero__benefits-item:hover .hero__benefits-icon {
@@ -437,6 +463,12 @@ a.link:hover {
 
 .hero__benefits-txt {
   max-width: 158px;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .hero__benefits-txt {
+    font-size: 18px;
+  }
 }
 
 .about {
@@ -570,7 +602,7 @@ a.link:hover {
 }
 
 .news__title {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 130%; /* 62.4px */
   text-transform: capitalize;
@@ -582,15 +614,20 @@ a.link:hover {
 }
 
 .news__subtitle {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 130%; /* 31.2px */
   text-transform: capitalize;
 }
+@media screen and (min-width: 768px) {
+  .news__subtitle {
+    font-size: 24px;
+  }
+}
 
 .news__btn {
   margin-left: auto;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 135.687%;
@@ -987,12 +1024,17 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   color: var(--secondary-text-color);
 }
 .trader__container {
-  padding: 90px;
+  padding: 90px 20px;
   background-color: #fff;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   position: relative;
+}
+@media screen and (min-width: 768px) {
+  .trader__container {
+    padding: 90px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .trader__title, .trader__text--bold, .trader__text {
