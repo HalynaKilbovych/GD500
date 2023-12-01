@@ -102,6 +102,7 @@
     @include tablet { 
       flex-direction: row;
       align-items: flex-start;
+      gap: 24px;
     }
   }
 
@@ -138,6 +139,6 @@
   font-size: 14px; 
 
   @include tablet { 
-    font-size: 18px; 
+    font-size: 16px; 
   }
 }
