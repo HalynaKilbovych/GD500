@@ -151,6 +151,61 @@ a.link:hover {
   margin: -1px;
 }
 
+.header {
+  padding: 24px 0px;
+}
+.header__container {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.header__btn-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.nav__link {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.mob-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.mob-nav__link {
+  color: var(--text-color);
+}
+
+.mob-header__btn-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
 .backdrop {
   position: absolute;
   top: 0;
@@ -247,67 +302,9 @@ a.link:hover {
   }
 }
 
-.header {
-  padding: 24px 0px;
-}
-
-.header__container {
-  display: none;
-}
-@media screen and (min-width: 1200px) {
-  .header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-
-.logo {
-  width: 150px;
-  height: 50px;
-}
-
-.nav__list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 34px;
-}
-
-.nav__link {
-  color: var(--text-color);
-  font-size: 14px;
-}
-
-.header__btn-wrp {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.mob-nav__list {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.mob-nav__link {
-  color: var(--text-color);
-}
-
-.mob-header__btn-wrp {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-}
-
 .hero {
   padding: 86px 0px 60px 0px;
 }
-
 .hero__top {
   display: flex;
   flex-wrap: wrap;
@@ -322,7 +319,6 @@ a.link:hover {
     align-items: center;
   }
 }
-
 .hero__title-wrp {
   max-width: 450px;
 }
@@ -331,7 +327,6 @@ a.link:hover {
     max-width: 600px;
   }
 }
-
 .hero__title {
   font-size: 24px;
   font-weight: 400;
@@ -347,18 +342,15 @@ a.link:hover {
     font-weight: 500;
   }
 }
-
 .hero__title b {
   font-weight: 800;
 }
-
 .hero__img-wrp {
   max-width: 420px;
   position: relative;
   z-index: 1;
   margin-bottom: 60px;
 }
-
 .hero__img-wrp::after {
   content: "";
   display: block;
@@ -371,11 +363,9 @@ a.link:hover {
   left: 0;
   z-index: -1;
 }
-
 .hero__bottom {
   font-size: 20px;
 }
-
 .hero__slogan {
   padding: 34px 20px;
   border-radius: 20px;
@@ -394,11 +384,9 @@ a.link:hover {
     align-items: center;
   }
 }
-
 .hero__slogan b {
   font-weight: 700;
 }
-
 .hero__benefits {
   padding: 24px 34px;
   border-radius: 20px;
@@ -410,7 +398,6 @@ a.link:hover {
     text-align: left;
   }
 }
-
 .hero__benefits-list {
   display: flex;
   flex-wrap: wrap;
@@ -425,12 +412,10 @@ a.link:hover {
     align-items: flex-start;
   }
 }
-
 .hero__benefits-item {
   transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 18px;
 }
-
 .hero__benefits-icon {
   width: 76px;
   height: 76px;
@@ -466,7 +451,6 @@ a.link:hover {
     padding-bottom: 120px;
   }
 }
-
 .about__block-list {
   display: flex;
   gap: 40px;
@@ -477,29 +461,24 @@ a.link:hover {
     flex-direction: row;
   }
 }
-
 .about__block-item {
   padding: 32px 32px 32px 46px;
   background-color: #fff;
   border-radius: 20px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .about__block-item:hover, .about__block-item:focus {
-  scale: 1.1;
+  scale: 1.05;
 }
-
 .about__block-title {
   font-size: 20px;
   margin-bottom: 36px;
 }
-
 .about__benefits-item {
   position: relative;
   font-size: 14px;
   margin-bottom: 30px;
 }
-
 .about__benefits-item::after {
   position: absolute;
   display: block;
@@ -1195,9 +1174,8 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 
 .privacy-text {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 135.687%; /* 24.424px */
+  line-height: 135.687%;
 }
 
 .logo-wrap img {
@@ -1208,8 +1186,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 
 .footer-txt {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 140.687%; /* 25.324px */
+  line-height: 140.687%;
   opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */

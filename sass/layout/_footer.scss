@@ -2,8 +2,6 @@
   background-color: #101010;
   padding: 100px 0px;
 
-
-
   &__link { 
     font-weight: 400;
     font-size: 14px;
@@ -47,17 +45,13 @@
     }
   }
 
-  // &__menu-item { 
-  //   width: 20%;
-  // }
 }
 
 
 .privacy-text { 
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 135.687%; /* 24.424px */
+  line-height: 135.687%;
 }
 
 .logo-wrap img{ 
@@ -68,8 +62,7 @@
 
 .footer-txt { 
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 140.687%; /* 25.324px */
+  line-height: 140.687%; 
   opacity: 0.5;
 }
