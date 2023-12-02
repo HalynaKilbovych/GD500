@@ -1280,7 +1280,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   display: inline-block;
   margin-right: 80px;
   width: calc(50% - 80px);
-  background: linear-gradient(rgba(33, 33, 33, 0.2), rgba(33, 33, 33, 0.2)), url("/img/deposits-hero.jpeg") left no-repeat;
+  background: linear-gradient(rgba(33, 33, 33, 0.2), rgba(33, 33, 33, 0.2)), url("../img/deposits-hero.jpeg") left no-repeat;
   background-size: cover;
 }
 
@@ -1307,7 +1307,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   margin: 0 auto;
   display: flex;
   max-width: 1920px;
-  background: url("/img/deposDescr.jpeg") top right no-repeat;
+  background: url("../img/deposDescr.jpeg") top right no-repeat;
 }
 
 .description-deposits__container {
@@ -1438,7 +1438,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   margin: 0 auto;
   display: flex;
   max-width: 1920px;
-  background: url("/img/withdrawals.jpeg") top right no-repeat;
+  background: url("../img/withdrawals.jpeg") top right no-repeat;
 }
 
 .withdrawals__container {
@@ -1532,7 +1532,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 }
 
 .verification {
-  background: url("/img/verifyBG.jpeg") center no-repeat;
+  background: url("../img/verifyBG.jpeg") center no-repeat;
 }
 
 .verification__container {
