@@ -756,12 +756,13 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.96px;
-  line-height: 60px;
+  line-height: 30px;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .description__title {
     font-size: 48px;
+    line-height: 60px;
   }
 }
 .description__text {
@@ -1248,6 +1249,7 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   opacity: 0.5;
 }
 
+<<<<<<< Updated upstream
 .hero-deposits {
   background: url("../img/bg-pattern.svg");
 }
@@ -1656,4 +1658,40 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
+=======
+.platform__description {
+  background-color: #fff;
+  color: var(--secondary-text-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .platform__description-text-content {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .platform__description-image-wrp {
+    width: 560px;
+    height: 565px;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .platform__description-image-wrp img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.platform__description-text {
+  font-weight: 600;
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=main.css.map */

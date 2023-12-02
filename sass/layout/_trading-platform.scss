@@ -1,0 +1,37 @@
+.platform__description { 
+    background-color: #fff;
+    color: var(--secondary-text-color);
+}
+
+
+.platform__description-text-content { 
+    @include desktop { 
+        width: 50%;
+    }
+}
+
+.platform__description-image-wrp { 
+    @include desktop { 
+        width: 560px;
+        height: 565px;
+        overflow: hidden;
+        position: relative;
+    }
+
+}
+
+.platform__description-image-wrp img {
+    @include desktop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+  }
+
+.platform__description-text { 
+    font-weight: 600;
+}

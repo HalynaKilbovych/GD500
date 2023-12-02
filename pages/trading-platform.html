@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="Image/x-icon" href="./img/icons-lemon.svg" rel="icon">
+    <!-- фавікон -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    >
+    <link rel="stylesheet" href="/css/main.min.css">
+    <title>Home page</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <div class="logo">
+          <a href="/index.html" class="logo__link"
+            ><img src="/img/logo.png" alt="logo"
+          ></a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a href="" class="nav__link link">TRADING</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">TRADING INSTRUMENTS</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">RESEARCH & EDUCATION</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">COMPANY</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__btn-wrp">
+          <button class="header__btn btn btn__main">Sign Up</button>
+          <button class="header__btn btn btn__secondary">Login</button>
+        </div>
+      </div>
+
+      <div class="header-mob container">
+        <div class="logo mob-logo">
+          <a href="" class="logo__link"
+            ><img src="/img/logo.png" alt="logo"
+          ></a>
+        </div>
+        <button type="button" class="mob-menu__open-btn" data-menu-open>
+          <svg class="mob-menu__icon" width="40" height="40">
+            <use href="/img/icons.svg#icon-menu_open"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="backdrop is-hidden" data-menu>
+        <div class="mob-menu">
+          <div class="container">
+            <button type="button" class="mob-menu__close-btn" data-menu-close>
+              <svg class="mob-menu__button-icon" width="40" height="40">
+                <use href="/img/icons.svg#icon-menu_close"></use>
+              </svg>
+            </button>
+            <nav class="mob-nav">
+              <ul class="mob-nav__list list">
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">TRADING</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">TRADING INSTRUMENTS</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">RESEARCH & EDUCATION</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">COMPANY</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="mob-header__btn-wrp">
+              <button class="mob-header__btn btn btn__main">Sign Up</button>
+              <button class="mob-header__btn btn btn__secondary">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <main>
+        <section class="description platform__description">
+            <div class="container description__container">
+              <div class="description__text-content platform__description-text-content">
+                <h2 class="description__title">Access the Powerful and Dynamic WebTrader with Advanced Features</h2>
+                <p class="description__text platform__description-text">
+                    Connect with the Global Financial Markets Today
+                </p>
+                <p class="description__text description__text--second">
+                    The proprietary cloud-based Globalfx500 WebTrader provides instant access to the global financial markets. The platform is quickly accessible via any web browser and requires no download or installation. The platform is 100% compatible with popular desktop operating systems such as Windows, Linux, and macOS. You are only required to complete a single login to your trading account and you can start viewing live price feeds of your favorite financial assets and open your preferred trades anywhere or anytime you desire.
+                </p>
+              </div>
+    
+              <div class="description__image-wrp platform__description-image-wrp">
+                <img src="/img/pages/trading-platform-description.jpg" alt="Growth chart">
+              </div>
+            </div>
+          </section>
+
+          <section class="about about-section">
+            <div class="container">
+              <ul class="about__block-list list">
+                <li class="about__block-item">
+                  <h2 class="about__block-title">RESOURCES & SUPPORT</h2>
+                  <ul class="about__benefits-list list">
+                    <li class="about__benefits-item">
+                      Dedicated and responsive personal account managers
+                    </li>
+                    <li class="about__benefits-item">
+                      Informative webinar and trading sessions
+                    </li>
+                    <li class="about__benefits-item">
+                      Wide selection of comprehensive eBooks, videos, and tutorials
+                      to improve trading skills
+                    </li>
+                    <li class="about__benefits-item">
+                      Direct feed of latest market news and to the platform’s social
+                      media feed
+                    </li>
+                  </ul>
+                </li>
+    
+                <li class="about__block-item">
+                  <h2 class="about__block-title">TRADING PLATFORM & TOOLS</h2>
+                  <ul class="about__benefits-list list">
+                    <li class="about__benefits-item">
+                      Access to our intuitive, proprietary trading platform
+                    </li>
+                    <li class="about__benefits-item">
+                      Wide selection of trading tools including indicators, price
+                      charts, and analytics
+                    </li>
+                    <li class="about__benefits-item">
+                      No commission charges and narrow spreads
+                    </li>
+                    <li class="about__benefits-item">
+                      Vast selection of financial and digital assets
+                    </li>
+                    <li class="about__benefits-item">
+                      Effective risk management tools available
+                    </li>
+                  </ul>
+                </li>
+    
+                <li class="about__block-item">
+                  <h2 class="about__block-title">TRADE CONDITIONS</h2>
+                  <ul class="about__benefits-list list">
+                    <li class="about__benefits-item">
+                      Selection of account types to meet your needs
+                    </li>
+                    <li class="about__benefits-item">
+                      Low minimum deposit requirement
+                    </li>
+                    <li class="about__benefits-item">
+                      Advanced safety protocols and security technology to protect
+                      your personal data and capita
+                    </li>
+                    <li class="about__benefits-item">High leverage options</li>
+                    <li class="about__benefits-item">
+                      Access to a wide choice of trading opportunities daily
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__wrp">
+          <div class="logo-wrap">
+            <img src="/img/logo.png" alt="logo">
+            <p class="privacy-text">© 2023. All Rights Reserved</p>
+          </div>
+  
+            <nav class="footer__menu">
+  
+              <ul class="footer__menu-list footer__item list">
+                <li class="footer__menu-item"><a href="" class="link footer__link  footer__menu-item--title">Trading</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Account Types</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Deposits & Withdrawals</a></li>
+              </ul>
+  
+              <ul class="footer__menu-list footer__item list">
+                <li class="footer__menu-item"><a href="" class="link footer__link footer__menu-item--title">Research & Education</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Account Types</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Deposits & Withdrawals</a></li>
+              </ul>
+  
+              <ul class="footer__menu-list footer__item list">
+                <li class="footer__menu-item"><a href="" class="link footer__link  footer__menu-item--title">Company</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Account Types</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Deposits & Withdrawals</a></li>
+              </ul>
+  
+              <ul class="footer__menu-list footer__item list">
+                <li class="footer__menu-item"><a href="" class="link footer__link  footer__menu-item--title">Trading Instruments</a></li>
+              </ul>
+  
+            </nav>
+          
+        </div>
+        <p class="footer-txt">Gain direct access to our vast menu of learning resources which are designed to increase your knowledge about trading, trading strategies, trading tools, economic indicators, market catalysts and more</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/menu.js"></script>
+    <script src="/js/slider.js"></script>
+    <script src="/js/video-slider.js"></script>
+  </body>
+</html>

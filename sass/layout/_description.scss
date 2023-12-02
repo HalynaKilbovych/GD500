@@ -22,10 +22,11 @@
 
     font-weight: 700;
     letter-spacing: 0.96px;
-    line-height: 60px;
+    line-height: 30px;
     margin-bottom: 30px;
     @include tablet {
       font-size: 48px;
+      line-height: 60px;
     }
   }
 
