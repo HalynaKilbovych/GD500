@@ -104,7 +104,7 @@
 }
 
 .banner--news { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-news.jpg');
     background-size: 100%, 100% 50%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
@@ -112,18 +112,171 @@
 
 
     @include tablet { 
-        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
-        padding: 40px 0;
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-news.jpg');
+        padding: 80px 0px 120px 0px;
         background-size: 60% auto, 60% 100%, 60% auto; 
         background-position: right center, right, left;
         background-repeat: repeat-y, no-repeat, no-repeat;
     }
 
     @include desktop { 
-        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
-        padding: 40px 0;
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-news.jpg');
+        padding: 100px 0px 170px 0px;
         background-size: 60% auto, 60% 100%, 60% auto; 
         background-position: right center, right, left;
         background-repeat: repeat-y, no-repeat, no-repeat;
     }
+}
+
+.banner--account { 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/bannerAccount-Types.jpg');
+    background-size: 100%, 100% 50%, 100% auto; 
+    background-position: center, bottom, top;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+
+    @include tablet { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/bannerAccount-Types.jpg');
+        padding: 80px 0px 120px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+
+    @include desktop { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/bannerAccount-Types.jpg');
+        padding: 100px 0px 170px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+}
+
+.banner--about-us { 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-about-us.jpg');
+    background-size: 100%, 100% 50%, 100% auto; 
+    background-position: center, bottom, top;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+
+    @include tablet { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-about-us.jpg');
+        padding: 80px 0px 120px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+
+    @include desktop { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-about-us.jpg');
+        padding: 100px 0px 170px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+}
+
+.banner--contact-us, .banner--faq { 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-faq.jpg');
+    background-size: 100%, 100% 50%, 100% auto; 
+    background-position: center, bottom, top;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+
+    @include tablet { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-faq.jpg');
+        padding: 80px 0px 120px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+
+    @include desktop { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-faq.jpg');
+        padding: 100px 0px 170px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+}
+
+
+.banner--instruments { 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-Asset-Selection.jpg');
+    background-size: 100%, 100% 50%, 100% auto; 
+    background-position: center, bottom, top;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+
+    @include tablet { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-Asset-Selection.jpg');
+        padding: 80px 0px 120px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+
+    @include desktop { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-Asset-Selection.jpg');
+        padding: 100px 0px 170px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+}
+
+.banner--calculator { 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-calculators.jpg');
+    background-size: 100%, 100% 50%, 100% auto; 
+    background-position: center, bottom, top;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+
+    @include tablet { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-calculators.jpg');
+        padding: 80px 0px 120px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+
+    @include desktop { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-calculators.jpg');
+        padding: 100px 0px 170px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+}
+
+
+.banner--resources { 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-resourses.jpg');
+    background-size: 100%, 100% 50%, 100% auto; 
+    background-position: center, bottom, top;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+
+    @include tablet { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-resourses.jpg');
+        padding: 80px 0px 120px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+
+    @include desktop { 
+        background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-resourses.jpg');
+        padding: 100px 0px 170px 0px;
+        background-size: 60% auto, 60% 100%, 60% auto; 
+        background-position: right center, right, left;
+        background-repeat: repeat-y, no-repeat, no-repeat;
+    }
+
 }
