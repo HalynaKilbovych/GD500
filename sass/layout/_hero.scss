@@ -95,20 +95,25 @@
   }
 
   &__benefits-list {
-    @include flex-wrap (flex, wrap, column, 30px);
-    align-items: center;
-    justify-content: center;
-  
+    @include flex-wrap (flex, wrap, row, 30px);
+
     @include tablet { 
-      flex-direction: row;
       align-items: flex-start;
       gap: 24px;
+      align-items: baseline;
+      justify-content: center;
+    
     }
   }
 
   &__benefits-item {
     transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1); 
     font-size: 18px;
+    width: calc((100% - 30px)/2);
+
+    @include tablet { 
+      width: calc((100% - 125px)/6);
+    }
   }
 
   &__benefits-icon {
@@ -123,13 +128,13 @@
 
 
 .hero__benefits-item:hover .hero__benefits-icon { 
-  fill: #1E2459;
+  fill: var(--accent-color);
 }
 .hero__benefits-item:hover, .hero__benefits-item:focus  { 
-  color: #1E2459;
+  color: var(--accent-color);
 }
 .hero__benefits-item:focus .hero__benefits-icon { 
-  fill: #1E2459;
+  fill: var(--accent-color);
 }
 
 

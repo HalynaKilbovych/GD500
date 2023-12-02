@@ -129,7 +129,7 @@ a.link:hover {
 @media screen and (min-width: 768px) {
   .banner {
     background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/trading-platform-baner.jpg");
-    padding: 40px 0;
+    padding: 80px 0;
     background-size: 60% auto, 60% 100%, 60% auto;
     background-position: right center, right, left;
     background-repeat: repeat-y, no-repeat, no-repeat;
@@ -138,7 +138,7 @@ a.link:hover {
 @media screen and (min-width: 1200px) {
   .banner {
     background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/trading-platform-baner.jpg");
-    padding: 40px 0;
+    padding: 100px 0;
     background-size: 60% auto, 60% 100%, 60% auto;
     background-position: right center, right, left;
     background-repeat: repeat-y, no-repeat, no-repeat;
@@ -186,7 +186,7 @@ a.link:hover {
 @media screen and (min-width: 768px) {
   .banner--deposits {
     background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
-    padding: 40px 0;
+    padding: 80px 0;
     background-size: 60% auto, 60% 100%, 60% auto;
     background-position: right center, right, left;
     background-repeat: repeat-y, no-repeat, no-repeat;
@@ -195,7 +195,7 @@ a.link:hover {
 @media screen and (min-width: 1200px) {
   .banner--deposits {
     background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
-    padding: 40px 0;
+    padding: 100px 0;
     background-size: 60% auto, 60% 100%, 60% auto;
     background-position: right center, right, left;
     background-repeat: repeat-y, no-repeat, no-repeat;
@@ -212,7 +212,7 @@ a.link:hover {
 @media screen and (min-width: 768px) {
   .banner--deposits {
     background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
-    padding: 40px 0;
+    padding: 80px 0;
     background-size: 60% auto, 60% 100%, 60% auto;
     background-position: right center, right, left;
     background-repeat: repeat-y, no-repeat, no-repeat;
@@ -221,7 +221,7 @@ a.link:hover {
 @media screen and (min-width: 1200px) {
   .banner--deposits {
     background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
-    padding: 40px 0;
+    padding: 100px 0;
     background-size: 60% auto, 60% 100%, 60% auto;
     background-position: right center, right, left;
     background-repeat: repeat-y, no-repeat, no-repeat;
@@ -569,21 +569,26 @@ a.link:hover {
 .hero__benefits-list {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   gap: 30px;
-  align-items: center;
-  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .hero__benefits-list {
-    flex-direction: row;
     align-items: flex-start;
     gap: 24px;
+    align-items: baseline;
+    justify-content: center;
   }
 }
 .hero__benefits-item {
   transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 18px;
+  width: calc((100% - 30px) / 2);
+}
+@media screen and (min-width: 768px) {
+  .hero__benefits-item {
+    width: calc((100% - 125px) / 6);
+  }
 }
 .hero__benefits-icon {
   width: 76px;
@@ -594,15 +599,15 @@ a.link:hover {
 }
 
 .hero__benefits-item:hover .hero__benefits-icon {
-  fill: #1E2459;
+  fill: var(--accent-color);
 }
 
 .hero__benefits-item:hover, .hero__benefits-item:focus {
-  color: #1E2459;
+  color: var(--accent-color);
 }
 
 .hero__benefits-item:focus .hero__benefits-icon {
-  fill: #1E2459;
+  fill: var(--accent-color);
 }
 
 .hero__benefits-txt {
@@ -649,6 +654,7 @@ a.link:hover {
 .about__block-title {
   font-size: 20px;
   margin-bottom: 36px;
+  text-transform: uppercase;
 }
 .about__benefits-item {
   position: relative;
@@ -1782,4 +1788,103 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 
 .platform__description-text {
   font-weight: 600;
+}
+
+.platform__about-text {
+  font-size: 14px;
+}
+@media screen and (min-width: 1200px) {
+  .platform__about-text {
+    font-size: 16px;
+  }
+}
+
+.platform__btn {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.platform__icon {
+  padding: 56px 0;
+  background-color: #2C3378;
+}
+
+.platform__benefits-item {
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 18px;
+  width: calc((100% - 30px) / 2);
+}
+@media screen and (min-width: 768px) {
+  .platform__benefits-item {
+    width: calc((100% - 125px) / 6);
+  }
+}
+
+.mobile-block {
+  background: #fff;
+  color: var(--secondary-text-color);
+}
+@media screen and (min-width: 1200px) {
+  .mobile-block__container {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-block__image-wrp {
+    width: 524px;
+    height: 754px;
+    overflow: hidden;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-block__image-wrp img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-block__text-content {
+    width: 40%;
+  }
+}
+.mobile-block__btn {
+  margin-top: 48px;
+}
+
+.mobile-block__benefits-list {
+  display: flex;
+  gap: 19px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.mobile-block__benefits-item {
+  padding: 16px 16px;
+  border-radius: 50px;
+  background: #2C3378;
+  width: calc((100% - 20px) / 2);
+  color: #FFF;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (min-width: 900px) {
+  .mobile-block__benefits-item {
+    width: calc((100% - 50px) / 3);
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-block__benefits-item {
+    border-radius: 100px;
+    padding: 16px 24px;
+  }
 }/*# sourceMappingURL=main.css.map */

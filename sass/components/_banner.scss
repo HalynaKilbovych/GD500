@@ -7,7 +7,7 @@
 
     @include tablet { 
         background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/trading-platform-baner.jpg');
-        padding: 40px 0;
+        padding: 80px 0;
         background-size: 60% auto, 60% 100%, 60% auto; 
         background-position: right center, right, left;
         background-repeat: repeat-y, no-repeat, no-repeat;
@@ -15,7 +15,7 @@
 
     @include desktop { 
         background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/trading-platform-baner.jpg');
-        padding: 40px 0;
+        padding: 100px 0;
         background-size: 60% auto, 60% 100%, 60% auto; 
         background-position: right center, right, left;
         background-repeat: repeat-y, no-repeat, no-repeat;
@@ -62,7 +62,7 @@
 
     @include tablet { 
         background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
-        padding: 40px 0;
+        padding: 80px 0;
         background-size: 60% auto, 60% 100%, 60% auto; 
         background-position: right center, right, left;
         background-repeat: repeat-y, no-repeat, no-repeat;
@@ -70,7 +70,7 @@
 
     @include desktop { 
         background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
-        padding: 40px 0;
+        padding: 100px 0;
         background-size: 60% auto, 60% 100%, 60% auto; 
         background-position: right center, right, left;
         background-repeat: repeat-y, no-repeat, no-repeat;
@@ -88,7 +88,7 @@
 
     @include tablet { 
         background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
-        padding: 40px 0;
+        padding: 80px 0;
         background-size: 60% auto, 60% 100%, 60% auto; 
         background-position: right center, right, left;
         background-repeat: repeat-y, no-repeat, no-repeat;
@@ -96,7 +96,7 @@
 
     @include desktop { 
         background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
-        padding: 40px 0;
+        padding: 100px 0;
         background-size: 60% auto, 60% 100%, 60% auto; 
         background-position: right center, right, left;
         background-repeat: repeat-y, no-repeat, no-repeat;
