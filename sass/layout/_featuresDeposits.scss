@@ -1,0 +1,54 @@
+.features-deposits {
+  background-color: #fafbff;
+  padding: 120px 0 40px 0;
+}
+
+.features-deposits__list {
+  display: flex;
+  flex-direction: column;
+  color: #101010;
+  gap: 40px;
+}
+
+.features-deposits__item {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  padding: 34px;
+  gap: 48px;
+}
+
+.features-deposits__text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+
+  h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 61px;
+  }
+}
+
+.info-deposits {
+  background-color: #4768ae;
+}
+
+.info-deposits__container {
+  display: flex;
+  padding: 61px 20px 65px 20px;
+  gap: 20px;
+  font-size: 16px;
+  line-height: 26px;
+
+  img {
+    width: 36px;
+    height: 36px;
+  }
+}

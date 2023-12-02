@@ -3,91 +3,88 @@
 .header {
   padding: 24px 0px;
   font-size: 10px;
-  @include desktop { 
+  @include desktop {
     font-size: 14px;
   }
 
   &__container {
     display: none;
-    @include tablet{
-      @include flex (flex, center, space-between, null);
+    @include tablet {
+      @include flex(flex, center, space-between, null);
     }
   }
 
   &__btn-wrp {
-    @include flex (flex, center, space-between, 6px);
+    @include flex(flex, center, space-between, 6px);
 
-    @include desktop { 
+    @include desktop {
       gap: 12px;
     }
   }
 }
 
 .logo {
-  width: 110px; 
+  width: 110px;
 
-  @include desktop { 
+  @include desktop {
     width: 150px;
   }
 }
 
 .nav__list {
-  @include flex (flex, center, space-between, 15px);
+  @include flex(flex, center, space-between, 15px);
 
-  @include desktop { 
+  @include desktop {
     gap: 36px;
   }
 }
 
 .nav__link {
-  color: var(--text-color); 
-  font-size: 10px; 
+  color: var(--text-color);
+  font-size: 10px;
 
-  @include desktop { 
+  @include desktop {
     font-style: 14px;
   }
-  
 }
-
-
 
 // мобільне меню
 
 .mob-nav__list {
-  @include flex-wrap (flex, wrap, column, 30px );
+  @include flex-wrap(flex, wrap, column, 30px);
 }
 
 .mob-nav__link {
   color: var(--text-color);
 }
 
-.mob-header__btn-wrp { 
-  @include flex (flex, center, center, 5px);
+.mob-header__btn-wrp {
+  @include flex(flex, center, center, 5px);
 }
 
-
-.backdrop { 
+.backdrop {
   position: absolute;
   top: 0;
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mob-logo { 
+.mob-logo {
   padding-left: 20px;
-  @include tablet { 
+  @include tablet {
     display: none;
   }
 }
-.header-mob { 
-  @include flex (flex, flex-end, space-between, null );
-  @include tablet { 
+.header-mob {
+  @include flex(flex, flex-end, space-between, null);
+  @include tablet {
     display: none;
   }
 }
-.header-top-mob { 
-  @include tablet { 
+.header-top-mob {
+  @include tablet {
     display: none;
   }
 }
@@ -106,49 +103,52 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  &__nav { 
+  &__nav {
     padding-left: 30px;
   }
 
   &__icon {
     background-color: var(--accent-color);
   }
-  &__close-btn, 
-  &__open-btn  {
+  &__close-btn,
+  &__open-btn {
     display: block;
     margin-left: auto;
     background: var(--primary-background);
     border: none;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-    fill: #fff; 
+    fill: #fff;
     &:hover,
     &:focus {
-      fill: #2C3378;
+      fill: #2c3378;
     }
   }
-  &__open-btn 
-  > &__icon { 
+  &__open-btn > &__icon {
     background-color: var(--primary-background-color);
   }
-  &__open-btn  { 
+  &__open-btn {
     background-color: var(--primary-background-color);
   }
   &__item:not(:last-child) {
-    margin-bottom: 22px; 
+    margin-bottom: 22px;
   }
   &__link {
-    @include fonts (500, 24px, 35px, 0.02em);
+    @include fonts(500, 24px, 35px, 0.02em);
     color: #212121;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      color: #2C3378;
+      color: #2c3378;
     }
   }
 }
-.mob-menu__open-btn { 
-  @include tablet { 
-  display: none;
+.mob-menu__open-btn {
+  @include tablet {
+    display: none;
   }
+}
+
+.header-dark {
+  background-color: #6280c1;
 }
