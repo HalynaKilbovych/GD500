@@ -1,12 +1,13 @@
 @import "./base/reset";
 @import "./base/global";
-
 @import "./components/container";
-@import "./components/btn";
 
 @import "./utils/mixin";
 @import "./utils/variables";
 @import "./utils/hidden";
+
+@import "./components/banner";
+@import "./components/btn"; 
 
 @import "./layout/header";
 @import "./layout/hero";
@@ -19,27 +20,10 @@
 @import "./layout/footer";
 
 
-@import "./layout/heroDeposits";
-@import "./layout/descriptionDeposits";
-@import "./layout/featuresDeposits";
-@import "./layout/withdrawals";
-@import "./layout/verification";
-@import "./layout/poof";
-
-@import './utils/mixin';
-@import './utils/variables';
-@import './utils/hidden';
-
-
-@import './layout/header';
-@import './layout/hero';
-@import './layout/about';
-@import './layout/news';
-@import './layout/description';
-@import './layout/video';
-@import './layout/trader';
-@import './layout/progress'; 
-@import './layout/footer';
-
-
+@import "./layout/deposits";
 @import './layout/trading-platform'; 
+
+
+
+
+

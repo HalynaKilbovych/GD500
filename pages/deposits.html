@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="Image/x-icon" href="/img/fav-icon.png" rel="icon">
+    <!-- фавікон -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    >
+    <link rel="stylesheet" href="/css/main.min.css">
+    <title>Deposits & Withdrawals</title>
+  </head>
+  <body>
+    <header class="header header--page">
+      <div class="header__container container">
+        <div class="logo">
+          <a href="/index.html" class="logo__link"
+            ><img src="/img/logo.png" alt="logo"
+          ></a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a href="" class="nav__link link">TRADING</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">TRADING INSTRUMENTS</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">RESEARCH & EDUCATION</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">COMPANY</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__btn-wrp">
+          <button class="header__btn btn btn__main">Sign Up</button>
+          <button class="header__btn btn btn__secondary">Login</button>
+        </div>
+      </div>
+
+      <div class="header-mob container">
+        <div class="logo mob-logo">
+          <a href="" class="logo__link"
+            ><img src="/img/logo.png" alt="logo"
+          ></a>
+        </div>
+        <button type="button" class="mob-menu__open-btn" data-menu-open>
+          <svg class="mob-menu__icon" width="40" height="40">
+            <use href="/img/icons.svg#icon-menu_open"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="backdrop is-hidden" data-menu>
+        <div class="mob-menu">
+          <div class="container">
+            <button type="button" class="mob-menu__close-btn" data-menu-close>
+              <svg class="mob-menu__button-icon" width="40" height="40">
+                <use href="/img/icons.svg#icon-menu_close"></use>
+              </svg>
+            </button>
+            <nav class="mob-nav">
+              <ul class="mob-nav__list list">
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">TRADING</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">TRADING INSTRUMENTS</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">RESEARCH & EDUCATION</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">COMPANY</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="mob-header__btn-wrp">
+              <button class="mob-header__btn btn btn__main">Sign Up</button>
+              <button class="mob-header__btn btn btn__secondary">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner banner--deposits deposits__hero">
+        <div class="container banner__container">
+          <div class="banner__text-content">
+            <h1 class="banner__title">Deposits & Withdrawals</h1>
+            <p class="banner__text">
+              Select the Right Trading Account to Meet Your Trading Needs
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="description-deposits">
+        <div class="description-deposits__wrap">
+          <div class="container description-deposits__container">
+            <div class="description-deposits__wrap-left">
+              <div class="description-deposits__text-wrap">
+                <h2 class="description-deposits__title">Deposits</h2>
+                <p class="description-deposits__text">
+                  Globalfx500 has made it easy for you to fund your trading
+                  account with a method that is safe and convenient for you. The
+                  process is simple and straightforward, making it easy for you
+                  to quickly get started with your trading activities. <br>
+                  Globalfx500 utilizes top security protocols to ensure that you
+                  never have to worry about the safety and security of any funds
+                  held in your account. In addition to holding all client funds
+                  in tier-1 segregated bank accounts, Globalfx500 also applies
+                  industry-best encryption technologies to ensure that your
+                  personal and financial information is not put at any risk
+                  whatsoever.
+                </p>
+              </div>
+              <div class="description-deposits__text-wrap">
+                <h2 class="description-deposits__title">
+                  What is the Deposit Processat Globalfx500
+                </h2>
+                <p class="description-deposits__text">
+                  Here are the steps to follow to fund your Globalfx500 trading
+                  account:
+                </p>
+              </div>
+            </div>
+            <div class="description-deposits__wrap-right">
+              <img src="/img/icons-descr-depos.svg" alt="icons">
+              <ul class="description-deposits__list">
+                <li class="item-1">
+                  <a href="#">Login into your Globalfx500 trading account</a>
+                </li>
+                <li class="item-2">Click on "Deposit"</li>
+                <li class="item-3">Select a payment method that you prefer</li>
+                <li class="item-4">
+                  Follow the prompts to complete the deposit process using your
+                  preferred payment method
+                </li>
+                <li>
+                  Your deposit will reflect as soon as the process is
+                  successfully completed
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="description-deposits__img"></div>
+        </div>
+      </section>
+      <section class="features-deposits">
+        <div class="container">
+          <ul class="features-deposits__list">
+            <li class="features-deposits__item">
+              <img src="/img/features-deposits1.jpeg" alt="iphone">
+              <div class="features-deposits__text-wrap">
+                <h3>Credit/debit cards</h3>
+                <p>
+                  Credit and debit cards are safe and convenient payment methods
+                  for many people. In addition to security, some come with
+                  related rewards for their users. At Globalfx500, we allow our
+                  clients to fund their trading accounts using popular
+                  debit/credit cards such as Visa, MasterCard, and Maestro.
+                </p>
+              </div>
+            </li>
+            <li class="features-deposits__item">
+              <div class="features-deposits__text-wrap">
+                <h3>eWallets</h3>
+                <p>
+                  EWallets have revolutionized the online payments scene.
+                  EWallet users are able to make quick payments with just a
+                  simple click. They also boast strong security features that
+                  are continuously upgraded. Globalfx500 provides a good
+                  selection of eWallets to allow you to fund your account
+                  cheaply and quickly as possible.
+                </p>
+              </div>
+              <img src="/img/features-deposits2.jpeg" alt="card">
+            </li>
+            <li class="features-deposits__item">
+              <img src="/img/features-deposits3.jpeg" alt="macbook">
+              <div class="features-deposits__text-wrap">
+                <h3>International Bank Wire</h3>
+                <p>
+                  While many clients prefer eWallets and card payments, there
+                  are some who can only access international bank wire. Another
+                  reason to use bank wire is to take advantage of its high
+                  security protocols. In most cases, an international bank wire
+                  is routed by at least 3 banks, which may be located in
+                  different jurisdictions, using different major local
+                  currencies. We still offer this option to those clients who
+                  find it convenient, but please remember that it may take up to
+                  7 days for the funds to reflect in your trading account.
+                </p>
+              </div>
+            </li>
+            <li class="features-deposits__item">
+              <div class="features-deposits__text-wrap">
+                <h3>Local Bank Wire</h3>
+                <p>
+                  Globalfx500 also accepts deposits via local bank wire. This is
+                  a cheaper alternative to international bank wire because it is
+                  peer-to-peer (The process uses people’s or institutions’ bank
+                  accounts directly). However, some banks may lack a current
+                  working relationship and may have to use intermediaries. It
+                  typically takes 3-5 business days for the funds to reflect in
+                  your trading account if you use local bank wire.
+                </p>
+              </div>
+              <img src="/img/features-deposits4.jpeg" alt="money">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="info-deposits">
+        <div class="container info-deposits__container">
+          <img src="/img/i.svg" alt="i">
+          <p>
+            We understand that our clients have different preferred payment
+            methods. Browse through our various supported methods by clicking on
+            the ‘Deposit’ button when you log into your Globalfx500 trading
+            account.
+          </p>
+        </div>
+      </section>
+      <section class="withdrawals">
+        <div class="withdrawals__wrap">
+          <div class="container withdrawals__container">
+            <div class="withdrawals__desription">
+              <h2>Withdrawals</h2>
+              <p>
+                We have deliberately streamlined the withdrawal process at
+                Globalfx500 to make it quick and easy for our clients to enjoy
+                their profits. You can withdraw your funds using all the
+                available deposit payment methods. <br>Globalfx500 will
+                facilitate safe withdrawals to your preferred payment methods.
+                We do not charge any withdrawal fees, so you will receive 100%
+                of the funds that you request to be withdrawn from your trading
+                account. However, please note that depending on your preferred
+                method, there may be applicable fees levied by your payment
+                processor. Please make sure to check this information directly
+                with your financial institution.
+              </p>
+            </div>
+            <div class="withdrawals__is">
+              <h3>What is the Withdrawal Process at Globalfx500</h3>
+              <p>
+                At Globalfx500, the withdrawal process is smooth and
+                hassle-free. Once you have completed all the relevant
+                verification requirements, simply follow the below steps and
+                wait to receive your money
+              </p>
+              <ul class="withdrawals__cards">
+                <li class="withdrawals__card">
+                  <h4>1</h4>
+                  <p>
+                    <a href="#">Log in</a> to your Globalfx500 trading account
+                  </p>
+                </li>
+                <li class="withdrawals__card">
+                  <h4>2</h4>
+                  <p>
+                    Click ‘Withdraw’ and fill out the withdrawal request form
+                  </p>
+                </li>
+                <li class="withdrawals__card">
+                  <h4>3</h4>
+                  <p>
+                    Submit the withdrawal form to the email provided (<a
+                      href="#"
+                      >support@orcal-group.com</a
+                    >) and wait for your funds to reflect on your preferred
+                    payment method.
+                  </p>
+                </li>
+              </ul>
+              <div class="withdrawals__info">
+                <img src="/img/iblue.svg" alt="icon">
+                <p>
+                  Please note that we strive to process all withdrawal requests
+                  within a reasonable time. Depending on your preferred payment
+                  method, your request may take as short as 24 hours to as long
+                  as 7 days to be processed. Globalfx500 does not charge any
+                  fees for deposits or withdrawals. You may, however, incur
+                  fees, such as forex or other related charges levied by your
+                  payment processor. Most of these fees are generally
+                  negligible, but it is important to confirm with your payment
+                  processor what their charges
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="verification">
+        <div class="container verification__container">
+          <div class="verification__wrap-left">
+            <h2>Account Verification and Security</h2>
+            <p>
+              Globalfx500 is a reputable international broker that is bound by
+              international protocols on KYC (know-your-customer) and anti-money
+              laundering guidelines. To comply, we need to perform identity
+              verification on all our users. This process involves requesting
+              our clients to upload certain verification documents.<br>We have
+              implemented top security protocols to ensure that no data about
+              our clients will ever be compromised in any way.
+            </p>
+          </div>
+          <div class="verification__wrap-right">
+            <h3>The documents required for the verification process are:</h3>
+            <ul>
+              <li class="verification__card">
+                <img src="/img/document.svg" alt="document">
+                <span>водительские права</span>
+              </li>
+              <li class="verification__card">
+                <img src="/img/document.svg" alt="document">
+                <span
+                  >международное удостоверение личности (загранпаспорт);</span
+                >
+              </li>
+              <li class="verification__card">
+                <img src="/img/document.svg" alt="document">
+                <span>внутренний паспорт.</span>
+              </li>
+            </ul>
+            <p>
+              Our website has been optimized to facilitate a quick and seamless
+              verification process. Should you find any difficulties completing
+              the verification requirements, simply contact our support team who
+              will help you with the process as fast as possible. Our dedicated
+              support team can be contacted via Live Chat, telephone, or
+              email<br>(<a href="#">support@orcalgroup.com</a>).
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="poof">
+        <div class="container">
+          <ul class="poof__cards">
+            <li class="poof__card">
+              <h2>Proof of Identification (POI)</h2>
+              <p>
+                A valid POI document is a government-issued identification
+                document that shows your face, full names, date of birth, date
+                of issue (or expiry), your signature, and any other relevant
+                data in your jurisdiction.
+              </p>
+              <div>
+                <h3>Acceptable POI documents include:</h3>
+                <ul class="poof__checkbox">
+                  <li>
+                    <img src="/img/checkbox.svg" alt="checkbox">
+                    <span>Driver’s license</span>
+                  </li>
+                  <li>
+                    <img src="/img/checkbox.svg" alt="checkbox">
+                    <span>National Identity Card</span>
+                  </li>
+                  <li>
+                    <img src="/img/checkbox.svg" alt="checkbox">
+                    <span>Passport</span>
+                  </li>
+                </ul>
+              </div>
+              <strong
+                >The document must be a clear coloured copy that is clear and
+                legible. Please ensure that your full name, the date of
+                issuance, and the expiration date are clearly visible</strong
+              >
+            </li>
+            <li class="poof__card">
+              <h2>Proof of Residence (POR)</h2>
+              <p>
+                A valid POR is a document issued by relevant authorities or
+                institutions, clearly showing your full name and address that
+                match your account registration details. <br>
+                Acceptable POR
+              </p>
+              <div>
+                <h3>Acceptable POR documents include:</h3>
+                <ul class="poof__checkbox">
+                  <li>
+                    <img src="/img/checkbox.svg" alt="checkbox">
+                    <span>Bank Statement</span>
+                  </li>
+                  <li>
+                    <img src="/img/checkbox.svg" alt="checkbox">
+                    <span
+                      >Utility Bills (gas, electricity, telephone,
+                      internet)</span
+                    >
+                  </li>
+                  <li>
+                    <img src="/img/checkbox.svg" alt="checkbox">
+                    <span>Lease Agreement</span>
+                  </li>
+                  <li>
+                    <img src="/img/checkbox.svg" alt="checkbox">
+                    <span>Mortgage Contract</span>
+                  </li>
+                  <li>
+                    <img src="/img/checkbox.svg" alt="checkbox">
+                    <span>Local Authority Bills</span>
+                  </li>
+                </ul>
+              </div>
+              <strong
+                >The document must be clear and legible, and not dated more than
+                6 months.</strong
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__wrp">
+          <div class="logo-wrap">
+            <img src="/img/logo.png" alt="logo">
+            <p class="privacy-text">© 2023. All Rights Reserved</p>
+          </div>
+  
+            <nav class="footer__menu">
+  
+              <ul class="footer__menu-list footer__item list">
+                <li class="footer__menu-item"><a href="" class="link footer__link  footer__menu-item--title">Trading</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Account Types</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Deposits & Withdrawals</a></li>
+              </ul>
+  
+              <ul class="footer__menu-list footer__item list">
+                <li class="footer__menu-item"><a href="" class="link footer__link footer__menu-item--title">Research & Education</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Account Types</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Deposits & Withdrawals</a></li>
+              </ul>
+  
+              <ul class="footer__menu-list footer__item list">
+                <li class="footer__menu-item"><a href="" class="link footer__link  footer__menu-item--title">Company</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Account Types</a></li>
+                <li class="footer__menu-item"><a href="" class="link footer__link">Deposits & Withdrawals</a></li>
+              </ul>
+  
+              <ul class="footer__menu-list footer__item list">
+                <li class="footer__menu-item"><a href="" class="link footer__link  footer__menu-item--title">Trading Instruments</a></li>
+              </ul>
+  
+            </nav>
+          
+        </div>
+        <p class="footer-txt">Gain direct access to our vast menu of learning resources which are designed to increase your knowledge about trading, trading strategies, trading tools, economic indicators, market catalysts and more</p>
+      </div>
+    </footer>
+  </body>
+</html>

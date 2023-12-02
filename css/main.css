@@ -97,6 +97,163 @@ a.link:hover {
   }
 }
 
+:root {
+  --text-color: #ffffff;
+  --secondary-text-color: #101010;
+  --accent-color: #5CB3FF;
+  --primary-background: linear-gradient(209deg, #728FCE 19%, #7281CE 30.75%, #728FCE 46.56%);
+  --secondary-background-color: #FAFBFF;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/trading-platform-baner.jpg");
+  background-size: 100%, 100% 50%, 100% auto;
+  background-position: center, bottom, top;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+@media screen and (min-width: 768px) {
+  .banner {
+    background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/trading-platform-baner.jpg");
+    padding: 40px 0;
+    background-size: 60% auto, 60% 100%, 60% auto;
+    background-position: right center, right, left;
+    background-repeat: repeat-y, no-repeat, no-repeat;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .banner {
+    background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/trading-platform-baner.jpg");
+    padding: 40px 0;
+    background-size: 60% auto, 60% 100%, 60% auto;
+    background-position: right center, right, left;
+    background-repeat: repeat-y, no-repeat, no-repeat;
+  }
+}
+.banner__text-content {
+  margin-left: 20%;
+}
+@media screen and (min-width: 768px) {
+  .banner__text-content {
+    margin-left: 55%;
+  }
+}
+.banner__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .banner__title {
+    font-size: 48px;
+    line-height: 62px;
+    margin-bottom: 48px;
+  }
+}
+.banner__text {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .banner__text {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}
+
+.banner--deposits {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+  background-size: 100%, 100% 50%, 100% auto;
+  background-position: center, bottom, top;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+@media screen and (min-width: 768px) {
+  .banner--deposits {
+    background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+    padding: 40px 0;
+    background-size: 60% auto, 60% 100%, 60% auto;
+    background-position: right center, right, left;
+    background-repeat: repeat-y, no-repeat, no-repeat;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .banner--deposits {
+    background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+    padding: 40px 0;
+    background-size: 60% auto, 60% 100%, 60% auto;
+    background-position: right center, right, left;
+    background-repeat: repeat-y, no-repeat, no-repeat;
+  }
+}
+
+.banner--deposits {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+  background-size: 100%, 100% 50%, 100% auto;
+  background-position: center, bottom, top;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+@media screen and (min-width: 768px) {
+  .banner--deposits {
+    background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+    padding: 40px 0;
+    background-size: 60% auto, 60% 100%, 60% auto;
+    background-position: right center, right, left;
+    background-repeat: repeat-y, no-repeat, no-repeat;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .banner--deposits {
+    background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+    padding: 40px 0;
+    background-size: 60% auto, 60% 100%, 60% auto;
+    background-position: right center, right, left;
+    background-repeat: repeat-y, no-repeat, no-repeat;
+  }
+}
+
+.banner--news {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+  background-size: 100%, 100% 50%, 100% auto;
+  background-position: center, bottom, top;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+@media screen and (min-width: 768px) {
+  .banner--news {
+    background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+    padding: 40px 0;
+    background-size: 60% auto, 60% 100%, 60% auto;
+    background-position: right center, right, left;
+    background-repeat: repeat-y, no-repeat, no-repeat;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .banner--news {
+    background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+    padding: 40px 0;
+    background-size: 60% auto, 60% 100%, 60% auto;
+    background-position: right center, right, left;
+    background-repeat: repeat-y, no-repeat, no-repeat;
+  }
+}
+
 .btn {
   display: flex;
   align-items: center;
@@ -129,28 +286,6 @@ a.link:hover {
   color: #6A8AD1;
 }
 
-:root {
-  --text-color: #ffffff;
-  --secondary-text-color: #101010;
-  --accent-color: #5CB3FF;
-  --primary-background: linear-gradient(209deg, #728FCE 19%, #7281CE 30.75%, #728FCE 46.56%);
-  --secondary-background-color: #FAFBFF;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
-  margin: -1px;
-}
-
 .header {
   padding: 24px 0px;
   font-size: 10px;
@@ -180,6 +315,10 @@ a.link:hover {
   .header__btn-wrp {
     gap: 12px;
   }
+}
+
+.header--page {
+  background-color: #6280C1;
 }
 
 .logo {
@@ -1249,57 +1388,6 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   opacity: 0.5;
 }
 
-<<<<<<< Updated upstream
-.hero-deposits {
-  background: url("../img/bg-pattern.svg");
-}
-
-.hero-wrap {
-  margin: 0 auto;
-  display: flex;
-  max-width: 1920px;
-}
-
-.hero-deposits__container {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  height: 525px;
-}
-
-.hero-deposits__wrap {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding-left: 20px;
-  gap: 48px;
-}
-
-.hero-deposits__img {
-  display: inline-block;
-  margin-right: 80px;
-  width: calc(50% - 80px);
-  background: linear-gradient(rgba(33, 33, 33, 0.2), rgba(33, 33, 33, 0.2)), url("../img/deposits-hero.jpeg") left no-repeat;
-  background-size: cover;
-}
-
-.hero-deposits__title {
-  max-width: 300px;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 62px;
-}
-
-.hero-deposits__text {
-  max-width: 550px;
-  font-size: 19px;
-  font-weight: 500;
-  line-height: 30px;
-}
-
 .description-deposits {
   background-color: white;
   color: var(--secondary-text-color);
@@ -1432,6 +1520,65 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   height: 36px;
 }
 
+.verification {
+  background: url("../img/verifyBG.jpeg") center no-repeat;
+}
+
+.verification__container {
+  display: flex;
+  padding: 100px 20px 86px 20px;
+  gap: 45px;
+}
+.verification__container p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.verification__wrap-left {
+  max-width: 512px;
+}
+.verification__wrap-left h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-bottom: 48px;
+}
+
+.verification__wrap-right h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+.verification__wrap-right ul {
+  list-style: none;
+}
+.verification__wrap-right a {
+  color: white;
+}
+.verification__wrap-right p {
+  margin-top: 122px;
+}
+
+.verification__card {
+  display: flex;
+  padding: 17px;
+  background-color: white;
+  color: #101010;
+  border-radius: 6px;
+  gap: 12px;
+  margin-bottom: 22px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.verification__card img {
+  width: 34px;
+  height: 34px;
+}
+
 .withdrawals {
   background-color: #2c3378;
 }
@@ -1533,65 +1680,6 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   max-width: 100%;
 }
 
-.verification {
-  background: url("../img/verifyBG.jpeg") center no-repeat;
-}
-
-.verification__container {
-  display: flex;
-  padding: 100px 20px 86px 20px;
-  gap: 45px;
-}
-.verification__container p {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-}
-
-.verification__wrap-left {
-  max-width: 512px;
-}
-.verification__wrap-left h2 {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 62px;
-  margin-bottom: 48px;
-}
-
-.verification__wrap-right h3 {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 26px;
-  max-width: 500px;
-  margin-bottom: 40px;
-}
-.verification__wrap-right ul {
-  list-style: none;
-}
-.verification__wrap-right a {
-  color: white;
-}
-.verification__wrap-right p {
-  margin-top: 122px;
-}
-
-.verification__card {
-  display: flex;
-  padding: 17px;
-  background-color: white;
-  color: #101010;
-  border-radius: 6px;
-  gap: 12px;
-  margin-bottom: 22px;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 32px;
-}
-.verification__card img {
-  width: 34px;
-  height: 34px;
-}
-
 .poof {
   background: #fafbff;
   padding: 120px 0;
@@ -1658,7 +1746,8 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-=======
+}
+
 .platform__description {
   background-color: #fff;
   color: var(--secondary-text-color);
@@ -1693,5 +1782,4 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 
 .platform__description-text {
   font-weight: 600;
->>>>>>> Stashed changes
 }/*# sourceMappingURL=main.css.map */
