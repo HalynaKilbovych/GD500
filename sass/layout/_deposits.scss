@@ -53,26 +53,35 @@
 }
 
 .description-deposits__title {
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 65px;
-  margin-bottom: 48px;
+  line-height: 40px;
+  margin-bottom: 28px;
+  @include tablet { 
+    font-size: 48px;
+    margin-bottom: 48px;
+    line-height: 65px;
+  }
+
 }
 
 .description-deposits__text {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
+
+  @include tablet { 
+    font-size: 16px;
+  }
 }
 
 .description-deposits__wrap-right {
   max-width: 580px;
-  padding: 80px 20px 100px 30px;
   background-color: white;
   align-self: flex-end;
   border-radius: 20px;
   display: flex;
   gap: 40px;
-  padding: 30px;
+  padding: 0px;
   align-self: flex-start;
 
   @include desktop {
@@ -81,7 +90,7 @@
   }
 
   img {
-    display: none;
+    max-width: 30%;
     @include tablet {
       display: block;
       height: 648px;
@@ -92,11 +101,17 @@
 
 .description-deposits__list {
   color: #000;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 28px;
   list-style: none;
   padding-top: 24px;
+
+  @include tablet { 
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+  }
 
   .item-1 {
     margin-bottom: 20px;
@@ -159,14 +174,25 @@
   gap: 48px;
 
   h3 {
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 54px;
+    line-height: 30px;
+    @include tablet { 
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 54px;
+    }
   }
   p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
-    padding-right: 61px;
+    padding-right: 20px;
+    @include tablet { 
+      font-size: 16px;
+      line-height: 26px;
+      padding-right: 61px;
+    }
+
   }
 }
 
@@ -186,8 +212,13 @@
   display: flex;
   padding: 61px 20px 65px 20px;
   gap: 20px;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 20px;
+  @include tablet { 
+    font-size: 16px;
+    line-height: 26px;
+  }
+
 
   img {
     width: 36px;
@@ -208,9 +239,14 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 26px;
+    @include tablet { 
+      font-size: 16px;
+      line-height: 26px;
+    }
+
   }
 }
 
@@ -218,15 +254,29 @@
   max-width: 512px;
 
   h2 {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 62px;
-    margin-bottom: 48px;
+    line-height: 30px;
+    margin-bottom: 28px;
+    @include tablet { 
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 62px;
+      margin-bottom: 48px;
+    }
+
   }
 }
 
 .verification__wrap-right {
   h3 {
+    @include tablet { 
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 26px;
+      max-width: 500px;
+      margin: 40px 0;
+    }
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -302,34 +352,58 @@
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 65px;
-    margin-bottom: 48px;
+    line-height: 30px;
+    margin-bottom: 28px;
+    @include tablet { 
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 65px;
+      margin-bottom: 48px;
+    }
+
   }
   p {
+    font-size: 14px;
+    line-height: 20px;
+    @include tablet { 
     font-size: 16px;
     line-height: 26px;
+    }
+
   }
 }
 
 .withdrawals__is {
   h3 {
-    max-width: 520px;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 50px;
-    margin-bottom: 40px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    @include tablet { 
+      max-width: 520px;
+      font-size: 36px;
+      line-height: 50px;
+      margin-bottom: 40px;
+    }
+
 
     @include desktop {
       background-color: #2c3378;
     }
   }
   p {
-    max-width: 1000px;
-    font-size: 16px;
-    line-height: 26px;
-    margin-bottom: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    @include tablet { 
+      max-width: 1000px;
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 80px;
+    }
+
   }
 }
 
@@ -346,7 +420,6 @@
   }
 }
 .withdrawals__card {
-  height: 262px;
   width: 100%;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.2);
@@ -358,6 +431,7 @@
   margin-bottom: 40px;
 
   @include tablet {
+    height: 262px;
     width: 50%;
     flex-direction: column;
   }
@@ -436,31 +510,45 @@
   }
 
   div {
-    padding: 34px;
+    padding: 20px;
     background-color: #fafbff;
     border-radius: 20px;
 
     h3 {
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 32px;
+      font-size: 20px;
+      line-height: 26px;
       margin-bottom: 24px;
+
+      @include tablet { 
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 24px;
+      }
+
     }
   }
   h2 {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 43px;
+    font-size: 24px;
+    line-height: 30px;
+    @include tablet { 
+      font-size: 32px;
+      line-height: 43px;
+    }
   }
   p {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 20px;
+    @include tablet { 
+      font-size: 16px;
+      line-height: 26px;
+    }
   }
 
   strong {
-    font-size: 16px;
+    // font-size: 16px;
     font-weight: 600;
-    line-height: 26px;
+    // line-height: 26px;
   }
 }
 .poof__checkbox {
@@ -485,6 +573,8 @@
   }
 }
 
+
+
 .card-verify {
   background: #2c3378;
   padding: 120px 0;
@@ -506,15 +596,27 @@
   }
 
   h2 {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 65px;
-    margin-bottom: 48px;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 28px;
+    @include tablet { 
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 65px;
+      margin-bottom: 48px;
+    }
+
   }
   p {
-    font-size: 16px;
-    line-height: 26px;
-    margin-bottom: 44px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    @include tablet { 
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 44px;
+    }
+
   }
 }
 .card-verify__list {
@@ -536,6 +638,12 @@
     min-width: 12px;
     background-color: #425cbb;
     margin-right: 15px;
+
+    font-size: 14px;
+
+    @include tablet { 
+      font-size: 16px;
+    }
   }
 }
 .card-verify__wrap-right {
@@ -596,9 +704,16 @@
   }
 
   h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    @include tablet { 
+      line-height: 54px;
+      font-size: 48px;
+      letter-spacing: 0.96px; 
+    }
     line-height: 54px;
     font-size: 48px;
-    font-weight: 700;
     letter-spacing: 0.96px;
 
     @include desktop {
@@ -606,7 +721,13 @@
     }
   }
   p {
-    font-size: 18px;
-    line-height: 25px;
+
+    font-size: 14px;
+    line-height: 20px;
+    @include tablet { 
+      font-size: 18px;
+      line-height: 25px;
+    }
+
   }
 }
