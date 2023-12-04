@@ -1,0 +1,112 @@
+.contact-us { 
+    background-color: #fff;
+    color: var(--secondary-text-color);
+    padding: 80px 0;
+
+    @include tablet { 
+        padding: 120px 0;
+    }
+}
+
+.address-list { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 60px;
+
+    @include tablet { 
+        flex-direction: row;
+        margin-bottom: 120px;
+    }
+}
+.address-item { 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    @include desktop { 
+        width: calc((100% - 40px) / 3);
+    }
+}
+
+.form-container {
+    border-radius: 20px;
+    padding: 20px;
+    background: #FAFBFF;
+    @include tablet { 
+        padding: 80px 200px;
+    }
+
+}
+.form-text { 
+    margin-bottom: 30px;
+}
+.input-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+    @include tablet { 
+        width: calc((100% - 40px) / 2);
+    }
+}
+
+.input-wrap:last-child { 
+    width: 100%;
+    height: 150px;
+}
+
+.input:last-child { 
+    height: 100%
+}
+
+.input {
+    padding: 20px;
+
+    border-radius: 2px;
+    border: 1px solid #D8D8D8;
+    background: #FFF;
+
+}
+.input ::placeholder { 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    opacity: 0.4;
+}
+
+.form-wrp { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.form-btn { 
+    margin-top: 40px;
+
+}
+
+.input:hover,
+.input:focus,
+.input:active {
+    outline: 1px solid var(--accent-color);
+}
+
+.input-error { 
+    outline: 1px solid red;
+}
+
+.input-warning { 
+    outline: 1px solid orange;
+}
