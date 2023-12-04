@@ -29,6 +29,7 @@
     flex-wrap: wrap;
 
     @include desktop { 
+      margin-top: 40px;
       flex-direction: row;
     }
   }
