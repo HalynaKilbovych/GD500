@@ -1,0 +1,134 @@
+.table {
+  padding: 120px 0;
+  background: #fafbff;
+}
+
+.table__container {
+  div {
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+table {
+  width: 100%;
+  color: #101010;
+  font-family: Montserrat;
+  font-size: 10px;
+  line-height: 14px;
+  border-collapse: collapse;
+  background-color: white;
+
+  @include tablet {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  @include desktop {
+    font-size: 16px;
+    line-height: 39px;
+  }
+}
+
+td {
+  border: 1px solid #d9d9d9;
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.table__acc-type {
+  background: #101010;
+  text-align: center;
+  color: white;
+  height: 67px;
+}
+.table__acc-type--gold {
+  color: #ffaa17;
+}
+.table__acc-type--platinum {
+  background: #5cb3ff;
+}
+.cell-w-icon {
+  img {
+    margin: 0 auto;
+  }
+}
+.table__platinum-col {
+  max-width: 168px;
+  background: #101010;
+  color: white;
+  font-size: 10px;
+  line-height: 120%;
+  padding: 15px 10px 320px 10px;
+
+  @include tablet {
+    font-size: 13px;
+    line-height: 120%;
+    padding: 15px 10px 320px 10px;
+  }
+
+  @include desktop {
+    font-size: 15px;
+    line-height: 140%;
+    padding: 22px 17px 320px 17px;
+  }
+}
+
+.border-non {
+  border: none;
+}
+
+.black {
+  background: #101010;
+  height: 108px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.cell-pad-l {
+  position: relative;
+
+  @include tablet {
+    padding-left: 22px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    z-index: 999;
+    display: none;
+    background-color: white;
+    height: 70px;
+    width: 23px;
+
+    @include tablet {
+      display: inline-block;
+    }
+  }
+}
+
+.smscr {
+  margin-top: 40px;
+  @include desktop {
+    display: none;
+  }
+}
+
+.lgscr {
+  display: none;
+  @include desktop {
+    display: table-cell;
+  }
+}
+
+.lgscrR {
+  display: none;
+  @include desktop {
+    display: table-row;
+  }
+}
