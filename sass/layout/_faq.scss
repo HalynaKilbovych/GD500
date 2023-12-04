@@ -1,0 +1,60 @@
+.faq_section { 
+    padding: 40px 0; 
+    background-color: #fff;
+    color: var(--secondary-text-color);
+    @include tablet { 
+        padding: 120px 0
+    }
+}
+.faq{
+    @include flex-wrap (flex, wrap, column, 15px );
+    width: 100%;
+    @include tablet { 
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    &__question{
+        cursor: pointer;
+        padding: 20px 50px;
+        width: 100%;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        position: relative;
+    }
+    &__answer { 
+       padding: 20px 50px 50px;
+       background-color: #2C3378;
+       color: #fff;
+       display: none;
+       overflow: hidden;
+       font-size: 13px;
+        line-height: 1.6;
+    }
+}
+    .active,
+    .faq__question:hover {
+        background-color: #2C3378;
+        color: #fff;
+    }
+    .faq__question:after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url('../img/arrow-faq.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transition: all 550ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .active:after {
+        transform: rotate(-90deg);
+        background: url('../img/arrow-faq-w.png');
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+    }
