@@ -67,11 +67,11 @@
     overflow: hidden;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     @include tablet { 
-        width: calc((100% - 30px) / 2);
-        height: 350px;
+        width: calc((100% - 60px)/3);
+        height: 400px;
 
         @include desktop { 
-            width: calc((100% - 60px) / 2);
+            width: calc((100% - 60px) / 3);
         }
 
     }
@@ -97,4 +97,10 @@
 
 .company-item:hover, .company-item :focus { 
 scale: 1.05;
+}
+
+.company__list-tittle { 
+    @include tablet { 
+        font-size: 16px;
+    }
 }
