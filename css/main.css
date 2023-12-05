@@ -834,7 +834,7 @@ a.link:hover {
 }
 @media screen and (min-width: 768px) {
   .hero__benefits-item {
-    width: 16.6666666667%;
+    width: calc((100% - 120px) / 6);
     gap: 20px;
   }
 }
