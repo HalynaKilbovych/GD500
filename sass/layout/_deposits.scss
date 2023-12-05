@@ -7,7 +7,9 @@
   margin: 0 auto;
   display: flex;
   max-width: 1920px;
-  background: linear-gradient(
+
+  @include tablet { 
+    background: linear-gradient(
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
@@ -18,6 +20,8 @@
     background: url("../img/deposDescr.jpeg") top right no-repeat;
     background-size: 44% auto, 60% 100%, 60% auto;
   }
+  }
+
 }
 
 .description-deposits__container {
@@ -33,10 +37,11 @@
   flex-direction: column;
   width: 100%;
   background-color: rgba(213, 193, 193, 0);
-  padding: 60px 0;
-  gap: 60px;
 
+  gap: 60px;
+  padding: 20px 0;
   @include desktop {
+    
     padding: 60px 0 240px 0;
     width: 50%;
     background-color: white;
@@ -77,12 +82,10 @@
 .description-deposits__wrap-right {
   max-width: 580px;
   background-color: white;
-  align-self: flex-end;
   border-radius: 20px;
   display: flex;
-  gap: 40px;
-  padding: 0px;
-  align-self: flex-start;
+  gap: 20px;
+  justify-content: space-between;
 
   @include desktop {
     padding: 80px 20px 100px 30px;
@@ -91,11 +94,23 @@
 
   img {
     max-width: 30%;
+    display: none;
     @include tablet {
       display: block;
       height: 648px;
       width: 182px;
     }
+  }
+}
+
+.desctiption-img { 
+  border-radius: 20px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+  @include tablet {
+    display: none;
   }
 }
 
@@ -114,33 +129,91 @@
   }
 
   .item-1 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    a {
+      color: #5cb3ff;
+    }
     @include tablet {
-      margin-bottom: 93px;
-      a {
-        color: #5cb3ff;
-      }
+      margin-top: 70px;
+      margin-bottom: 70px;
+
     }
   }
   .item-2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     @include tablet {
-      margin-bottom: 88px;
+      margin-bottom: 70px;
     }
   }
   .item-3 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     @include tablet {
-      margin-bottom: 69px;
+      margin-bottom: 45px;
     }
   }
   .item-4 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     @include tablet {
       margin-bottom: 50px;
     }
   }
 }
+
+.deposits-item { 
+  position: relative;
+  display: flex;
+  gap: 10px;
+  padding-left: 50px;
+}
+
+
+.description-deposits__list {
+  list-style: none;
+  padding: 0;
+}
+
+.deposits-item {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.deposits-item::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include tablet { 
+    display: none;
+  }
+}
+
+
+.item-1::before {
+  background-image: url("../img/deposit-1.svg");
+}
+
+.item-2::before {
+  background-image: url("../img/deposit-2.svg");
+}
+
+.item-3::before {
+  background-image: url("../img/deposit-3.svg");
+}
+
+.item-4::before {
+  background-image: url("../img/deposit-4.svg");
+}
+
+.item-5::before {
+  background-image: url("../img/deposit-5.svg");
+}
+
 
 .features-deposits {
   background-color: #fafbff;
@@ -328,9 +401,13 @@
   margin: 0 auto;
   display: flex;
   max-width: 1920px;
-  background: linear-gradient(rgba(43, 51, 120, 0.7), rgba(43, 51, 120, 0.7)),
+
+  @include tablet { 
+    background: linear-gradient(rgba(43, 51, 120, 0.7), rgba(43, 51, 120, 0.7)),
     url("../img/withdrawals.jpeg") top no-repeat;
   background-size: 100%, 100%, 100% 50%, 60% auto;
+  }
+
 
   @include desktop {
     background: url("../img/withdrawals.jpeg") top right no-repeat;
@@ -482,8 +559,13 @@
 
 .poof {
   background: #fafbff;
-  padding: 120px 0;
+
+  padding: 60px 0;
   color: #101010;
+
+  @include tablet { 
+    padding: 120px 0;
+  }
 }
 
 .poof__cards {
@@ -674,33 +756,38 @@
 }
 
 .transfer {
-  padding: 120px 0;
+  padding: 60px 0;
+
+  @include tablet { 
+    padding: 120px 0;
+  }
 }
 
 .transfer__container {
   display: flex;
   justify-content: space-between;
 
-  img {
-    display: none;
-    @include tablet {
-      display: block;
-      border-radius: 20px;
-      width: calc(50% - 20px);
-      height: 455px;
-    }
-  }
+}
+.transfer-bg { 
+  display: none;
+  @include tablet {
+    display: block;
+    border-radius: 20px;
+    width: calc(50% - 20px);
+    height: 455px;
+}
 }
 
 .transfer__wrap {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  
   justify-content: center;
 
   @include tablet {
     width: calc(50% - 20px);
+    gap: 48px;
   }
 
   h2 {
@@ -729,5 +816,18 @@
       line-height: 25px;
     }
 
+  }
+}
+
+
+.desctiption-img { 
+  border-radius: 20px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+  max-height: 250px;
+
+  @include tablet {
+    display: none;
   }
 }

@@ -1,6 +1,6 @@
 .banner { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/trading-platform-baner.jpg');
-    background-size: 100%, 100% 50%, 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/trading-platform-baner.jpg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -53,8 +53,8 @@
 }
 
 .banner--deposits { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
-    background-size: 100%, 100% 50%, 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -79,8 +79,8 @@
 
 
 .banner--deposits { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
-    background-size: 100%, 100% 50%, 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/deposits-hero.jpeg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -104,8 +104,8 @@
 }
 
 .banner--news { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-news.jpg');
-    background-size: 100%, 100% 50%, 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-news.jpg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -129,8 +129,8 @@
 }
 
 .banner--account { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/bannerAccount-Types.jpg');
-    background-size: 100%, 100% 50%, 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/bannerAccount-Types.jpg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -154,12 +154,11 @@
 }
 
 .banner--about-us { 
-    background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206));
-    background-size: 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-about-us.jpg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;
-
 
     @include tablet { 
         background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-about-us.jpg');
@@ -179,12 +178,11 @@
 }
 
 .banner--contact-us, .banner--faq { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-faq.jpg');
-    background-size: 100%, 100% 50%, 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-faq.jpg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;
-
 
     @include tablet { 
         background: url('../img/bg-pattern.svg'), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-faq.jpg');
@@ -205,8 +203,8 @@
 
 
 .banner--instruments { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-Asset-Selection.jpg');
-    background-size: 100%, 100% 50%, 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-Asset-Selection.jpg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -230,8 +228,8 @@
 }
 
 .banner--calculator { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-calculators.jpg');
-    background-size: 100%, 100% 50%, 100% auto; 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgba(114, 143, 206), rgba(114, 143, 206)), url('../img/banner-calculators.jpg');
+    background-size: 100%, 100% 0%, 100% auto; 
     background-position: center, bottom, top;
     background-repeat: no-repeat;
     padding: 50px 0;

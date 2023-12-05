@@ -122,8 +122,8 @@ a.link:hover {
 }
 
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/trading-platform-baner.jpg");
-  background-size: 100%, 100% 50%, 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/trading-platform-baner.jpg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -179,8 +179,8 @@ a.link:hover {
 }
 
 .banner--deposits {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
-  background-size: 100%, 100% 50%, 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -205,8 +205,8 @@ a.link:hover {
 }
 
 .banner--deposits {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
-  background-size: 100%, 100% 50%, 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/deposits-hero.jpeg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -231,8 +231,8 @@ a.link:hover {
 }
 
 .banner--news {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-news.jpg");
-  background-size: 100%, 100% 50%, 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-news.jpg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -257,8 +257,8 @@ a.link:hover {
 }
 
 .banner--account {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/bannerAccount-Types.jpg");
-  background-size: 100%, 100% 50%, 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/bannerAccount-Types.jpg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -283,8 +283,8 @@ a.link:hover {
 }
 
 .banner--about-us {
-  background: url("../img/bg-pattern.svg"), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206));
-  background-size: 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-about-us.jpg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -309,8 +309,8 @@ a.link:hover {
 }
 
 .banner--contact-us, .banner--faq {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-faq.jpg");
-  background-size: 100%, 100% 50%, 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-faq.jpg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -335,8 +335,8 @@ a.link:hover {
 }
 
 .banner--instruments {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-Asset-Selection.jpg");
-  background-size: 100%, 100% 50%, 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-Asset-Selection.jpg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -361,8 +361,8 @@ a.link:hover {
 }
 
 .banner--calculator {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-calculators.jpg");
-  background-size: 100%, 100% 50%, 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(rgb(114, 143, 206), rgb(114, 143, 206)), url("../img/banner-calculators.jpg");
+  background-size: 100%, 100% 0%, 100% auto;
   background-position: center, bottom, top;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -416,6 +416,7 @@ a.link:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 16px;
   display: flex;
   padding: 12px 24px;
   flex-direction: column;
@@ -425,6 +426,7 @@ a.link:hover {
   color: var(--text-color);
   cursor: pointer;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
 }
 .btn__main {
   background: var(--accent-color);
@@ -584,7 +586,7 @@ a.link:hover {
 }
 @media screen and (min-width: 1200px) {
   .nav__link {
-    font-style: 14px;
+    font-size: 14px;
   }
 }
 
@@ -827,7 +829,8 @@ a.link:hover {
 }
 @media screen and (min-width: 768px) {
   .hero__benefits-item {
-    width: calc((100% - 125px) / 6);
+    width: 16.6666666667%;
+    gap: 20px;
   }
 }
 .hero__benefits-icon {
@@ -858,6 +861,7 @@ a.link:hover {
 @media screen and (min-width: 768px) {
   .hero__benefits-txt {
     font-size: 16px;
+    text-align: left;
   }
 }
 
@@ -1645,10 +1649,14 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   margin: 0 auto;
   display: flex;
   max-width: 1920px;
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/deposDescr.jpeg") top center no-repeat;
-  background-size: 100%, 100%, 100% 50%, 60% auto;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
+  .description-deposits__wrap {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/deposDescr.jpeg") top center no-repeat;
+    background-size: 100%, 100%, 100% 50%, 60% auto;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
   .description-deposits__wrap {
     background: url("../img/deposDescr.jpeg") top right no-repeat;
     background-size: 44% auto, 60% 100%, 60% auto;
@@ -1670,8 +1678,8 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   flex-direction: column;
   width: 100%;
   background-color: rgba(213, 193, 193, 0);
-  padding: 60px 0;
   gap: 60px;
+  padding: 20px 0;
 }
 @media screen and (min-width: 1200px) {
   .description-deposits__wrap-left {
@@ -1718,12 +1726,10 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 .description-deposits__wrap-right {
   max-width: 580px;
   background-color: white;
-  align-self: flex-end;
   border-radius: 20px;
   display: flex;
-  gap: 40px;
-  padding: 0px;
-  align-self: flex-start;
+  gap: 20px;
+  justify-content: space-between;
 }
 @media screen and (min-width: 1200px) {
   .description-deposits__wrap-right {
@@ -1733,12 +1739,25 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 }
 .description-deposits__wrap-right img {
   max-width: 30%;
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .description-deposits__wrap-right img {
     display: block;
     height: 648px;
     width: 182px;
+  }
+}
+
+.desctiption-img {
+  border-radius: 20px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .desctiption-img {
+    display: none;
   }
 }
 
@@ -1758,39 +1777,94 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   }
 }
 .description-deposits__list .item-1 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+.description-deposits__list .item-1 a {
+  color: #5cb3ff;
 }
 @media screen and (min-width: 768px) {
   .description-deposits__list .item-1 {
-    margin-bottom: 93px;
-  }
-  .description-deposits__list .item-1 a {
-    color: #5cb3ff;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }
 .description-deposits__list .item-2 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .description-deposits__list .item-2 {
-    margin-bottom: 88px;
+    margin-bottom: 70px;
   }
 }
 .description-deposits__list .item-3 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .description-deposits__list .item-3 {
-    margin-bottom: 69px;
+    margin-bottom: 45px;
   }
 }
 .description-deposits__list .item-4 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .description-deposits__list .item-4 {
     margin-bottom: 50px;
   }
+}
+
+.deposits-item {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  padding-left: 50px;
+}
+
+.description-deposits__list {
+  list-style: none;
+  padding: 0;
+}
+
+.deposits-item {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.deposits-item::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .deposits-item::before {
+    display: none;
+  }
+}
+
+.item-1::before {
+  background-image: url("../img/deposit-1.svg");
+}
+
+.item-2::before {
+  background-image: url("../img/deposit-2.svg");
+}
+
+.item-3::before {
+  background-image: url("../img/deposit-3.svg");
+}
+
+.item-4::before {
+  background-image: url("../img/deposit-4.svg");
+}
+
+.item-5::before {
+  background-image: url("../img/deposit-5.svg");
 }
 
 .features-deposits {
@@ -1985,8 +2059,12 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   margin: 0 auto;
   display: flex;
   max-width: 1920px;
-  background: linear-gradient(rgba(43, 51, 120, 0.7), rgba(43, 51, 120, 0.7)), url("../img/withdrawals.jpeg") top no-repeat;
-  background-size: 100%, 100%, 100% 50%, 60% auto;
+}
+@media screen and (min-width: 768px) {
+  .withdrawals__wrap {
+    background: linear-gradient(rgba(43, 51, 120, 0.7), rgba(43, 51, 120, 0.7)), url("../img/withdrawals.jpeg") top no-repeat;
+    background-size: 100%, 100%, 100% 50%, 60% auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .withdrawals__wrap {
@@ -2145,8 +2223,13 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 
 .poof {
   background: #fafbff;
-  padding: 120px 0;
+  padding: 60px 0;
   color: #101010;
+}
+@media screen and (min-width: 768px) {
+  .poof {
+    padding: 120px 0;
+  }
 }
 
 .poof__cards {
@@ -2344,18 +2427,24 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
 }
 
 .transfer {
-  padding: 120px 0;
+  padding: 60px 0;
+}
+@media screen and (min-width: 768px) {
+  .transfer {
+    padding: 120px 0;
+  }
 }
 
 .transfer__container {
   display: flex;
   justify-content: space-between;
 }
-.transfer__container img {
+
+.transfer-bg {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .transfer__container img {
+  .transfer-bg {
     display: block;
     border-radius: 20px;
     width: calc(50% - 20px);
@@ -2367,12 +2456,12 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 48px;
   justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .transfer__wrap {
     width: calc(50% - 20px);
+    gap: 48px;
   }
 }
 .transfer__wrap h2 {
@@ -2403,6 +2492,19 @@ body .swiper .swiper-wrapper .swiper-slide-shadow-right {
   .transfer__wrap p {
     font-size: 18px;
     line-height: 25px;
+  }
+}
+
+.desctiption-img {
+  border-radius: 20px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+  max-height: 250px;
+}
+@media screen and (min-width: 768px) {
+  .desctiption-img {
+    display: none;
   }
 }
 
